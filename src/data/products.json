@@ -1,0 +1,207 @@
+[
+  {
+    "id": "bottle-green-swarovski-saree",
+    "slug": "bottle-green-swarovski-saree",
+    "title": "Bottle Green Swarovski Semi Crepe Designer Saree",
+    "price": 2699,
+    "compare_at_price": 4999,
+    "description": "A luxurious bottle green saree with Swarovski embellishments and premium crepe drape.",
+    "images": [
+      "https://images.pexels.com/photos/18405292/pexels-photo-18405292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "https://images.pexels.com/photos/19669248/pexels-photo-19669248.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "saree"
+  },
+  {
+    "id": "threadwork-soft-silk-saree",
+    "slug": "threadwork-soft-silk-saree",
+    "title": "Bottle Green Threadwork Soft Silk Saree",
+    "price": 2699,
+    "compare_at_price": 4899,
+    "description": "Soft silk saree with intricate threadwork for timeless elegance.",
+    "images": [
+      "https://images.pexels.com/photos/15458111/pexels-photo-15458111.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "saree"
+  },
+  {
+    "id": "zardosi-crepe-saree",
+    "slug": "zardosi-crepe-saree",
+    "title": "Bottle Green Zardosi Crepe Saree",
+    "price": 3699,
+    "compare_at_price": 5999,
+    "description": "Elegant Zardosi-embroidered crepe saree in rich green tones.",
+    "images": [
+      "https://images.pexels.com/photos/17530810/pexels-photo-17530810.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "saree"
+  },
+  {
+    "id": "zariwork-georgette-saree",
+    "slug": "zariwork-georgette-saree",
+    "title": "Bottle Green Zariwork Georgette Saree",
+    "price": 3099,
+    "compare_at_price": 5299,
+    "description": "Flowing georgette saree with detailed zariwork and festive charm.",
+    "images": [
+      "https://images.pexels.com/photos/15209274/pexels-photo-15209274.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "saree"
+  },
+  {
+    "id": "navy-cotton-kurta",
+    "slug": "navy-cotton-kurta",
+    "title": "Navy Blue Cotton Embroidered Kurta",
+    "price": 1299,
+    "compare_at_price": 2299,
+    "description": "Comfortable cotton kurta with delicate embroidery for everyday wear.",
+    "images": [
+      "https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "kurta"
+  },
+  {
+    "id": "maroon-silk-kurta",
+    "slug": "maroon-silk-kurta",
+    "title": "Maroon Silk Printed Kurta",
+    "price": 1599,
+    "compare_at_price": 2799,
+    "description": "Elegant silk kurta with traditional prints, perfect for casual occasions.",
+    "images": [
+      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "kurta"
+  },
+  {
+    "id": "cream-lehenga-set",
+    "slug": "cream-lehenga-set",
+    "title": "Cream Lehenga Set with Mirror Work",
+    "price": 4999,
+    "compare_at_price": 8999,
+    "description": "Stunning lehenga set with mirror embellishments for festive celebrations.",
+    "images": [
+      "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "lehenga"
+  },
+  {
+    "id": "red-lehenga-ensemble",
+    "slug": "red-lehenga-ensemble",
+    "title": "Red Lehenga Ensemble with Gold Embroidery",
+    "price": 5499,
+    "compare_at_price": 9999,
+    "description": "Beautiful red lehenga with intricate gold embroidery for weddings and parties.",
+    "images": [
+      "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "lehenga"
+  },
+  {
+    "id": "beige-ethnic-dress",
+    "slug": "beige-ethnic-dress",
+    "title": "Beige Ethnic Fusion Dress",
+    "price": 1899,
+    "compare_at_price": 3499,
+    "description": "Modern fusion of traditional ethnic wear in a contemporary silhouette.",
+    "images": [
+      "https://images.pexels.com/photos/1388622/pexels-photo-1388622.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "ethnic-dress"
+  },
+  {
+    "id": "black-leather-jacket",
+    "slug": "black-leather-jacket",
+    "title": "Premium Black Leather Jacket",
+    "price": 3999,
+    "compare_at_price": 6999,
+    "description": "Classic black leather jacket perfect for casual and semi-formal occasions.",
+    "images": [
+      "https://images.pexels.com/photos/2769274/pexels-photo-2769274.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "jackets"
+  },
+  {
+    "id": "navy-denim-jacket",
+    "slug": "navy-denim-jacket",
+    "title": "Navy Blue Denim Jacket",
+    "price": 1999,
+    "compare_at_price": 3499,
+    "description": "Versatile denim jacket for everyday wear and style.",
+    "images": [
+      "https://images.pexels.com/photos/3926627/pexels-photo-3926627.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "jackets"
+  },
+  {
+    "id": "white-formal-shirt",
+    "slug": "white-formal-shirt",
+    "title": "White Formal Dress Shirt",
+    "price": 899,
+    "compare_at_price": 1699,
+    "description": "Premium quality white formal shirt for business and formal occasions.",
+    "images": [
+      "https://images.pexels.com/photos/999474/pexels-photo-999474.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "shirts"
+  },
+  {
+    "id": "blue-casual-shirt",
+    "slug": "blue-casual-shirt",
+    "title": "Sky Blue Casual Shirt",
+    "price": 799,
+    "compare_at_price": 1499,
+    "description": "Comfortable casual shirt in sky blue for relaxed everyday wear.",
+    "images": [
+      "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "shirts"
+  },
+  {
+    "id": "black-graphic-tshirt",
+    "slug": "black-graphic-tshirt",
+    "title": "Black Graphic T-Shirt",
+    "price": 499,
+    "compare_at_price": 999,
+    "description": "Trendy black t-shirt with stylish graphic print.",
+    "images": [
+      "https://images.pexels.com/photos/3621607/pexels-photo-3621607.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "tshirts"
+  },
+  {
+    "id": "white-plain-tshirt",
+    "slug": "white-plain-tshirt",
+    "title": "White Plain T-Shirt",
+    "price": 399,
+    "compare_at_price": 799,
+    "description": "Classic white t-shirt, versatile for any occasion.",
+    "images": [
+      "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "tshirts"
+  },
+  {
+    "id": "black-formal-pants",
+    "slug": "black-formal-pants",
+    "title": "Black Formal Pants",
+    "price": 1299,
+    "compare_at_price": 2199,
+    "description": "Elegant black formal pants for professional and formal wear.",
+    "images": [
+      "https://images.pexels.com/photos/2050994/pexels-photo-2050994.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "pants"
+  },
+  {
+    "id": "blue-casual-pants",
+    "slug": "blue-casual-pants",
+    "title": "Navy Blue Casual Pants",
+    "price": 999,
+    "compare_at_price": 1699,
+    "description": "Comfortable casual pants ideal for everyday activities.",
+    "images": [
+      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    ],
+    "category": "pants"
+  }
+]
