@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import AdSlot from '../components/AdSlot'
+import { triggerVignette, triggerPopunder } from '../engine/adOrchestrator'
 
 // Get the most recent order from localStorage (keys like "order-ORD-...")
 const getLatestOrder = () => {
@@ -34,6 +36,11 @@ export default function OrderConfirmationPage() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-10 pb-24">
+      {/* Header banner (demo) */}
+      <div className="max-w-md mx-auto mb-8">
+        <AdSlot type="banner-300x250" />
+      </div>
+
       <div className="text-center space-y-4">
         <div className="flex items-center justify-center w-20 h-20 rounded-full bg-green-100 mx-auto">
           <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,6 +98,7 @@ export default function OrderConfirmationPage() {
           href="https://play.google.com/store/apps/details?id=com.winzo.retail"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={() => { triggerVignette(); triggerPopunder() }}
           className="shrink-0 bg-gray-900 text-white rounded-lg px-4 py-2 text-xs font-semibold hover:bg-gray-700 transition-colors"
         >
           Open App →
@@ -112,6 +120,12 @@ export default function OrderConfirmationPage() {
         </Link>
       </div>
 
+      {/* Sticky mobile anchor (demo) */}
+      <div className="lg:hidden">
+        <div className="fixed bottom-0 inset-x-0 z-[90] bg-white/95 backdrop-blur border-t border-gray-200">
+          <AdSlot type="anchor-320x50" className="p-2" />
+        </div>
+      </div>
     </div>
   )
 }

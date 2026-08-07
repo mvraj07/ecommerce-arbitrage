@@ -16,6 +16,7 @@ import AboutUsPage from "./pages/AboutUsPage";
 import ContactPage from "./pages/ContactPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import AdStack from "./components/AdStack";
 import CouponOfferwallPage from "./pages/CouponOfferwallPage";
 import AddMorePage from "./pages/AddMorePage";
 
@@ -56,6 +57,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <AdStack />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import products from "../data/products.json";
+import AdSlot from "../components/AdSlot";
+import { triggerVignette } from "../engine/adOrchestrator";
 
 // Real category images from khedutmahiti.com
 const CATEGORY_TILES = [
@@ -57,7 +59,7 @@ function ProductCarousel({ products }) {
             <Link
               key={p.id}
               to={`/product/${p.slug}`}
-  
+              onClick={triggerVignette}
               className="product-card flex-shrink-0 w-44 md:w-52 group"
             >
               <div className="img-shell aspect-[3/4] relative">
@@ -171,15 +173,23 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ── Ad after Shop by Categories (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
 
-{/* ── Best Selling ── */}
+        {/* ── Best Selling ── */}
         <section className="pb-10 md:pb-14">
           <SectionHeading title="Best Selling" viewAllPath="/best-selling" />
           <ProductCarousel products={bestSelling} />
         </section>
 
+        {/* ── Ad after Best Selling (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
 
-{/* ── Mid Banner — real image ── */}
+        {/* ── Mid Banner — real image ── */}
         <section className="pb-10 md:pb-14">
           <Link to="/product-category/saree" className="group block rounded-xl overflow-hidden bg-gray-100">
             <img
@@ -191,8 +201,12 @@ export default function Home() {
           </Link>
         </section>
 
+        {/* ── Ad after Mid Banner (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
 
-{/* ── Trending Collection ── */}
+        {/* ── Trending Collection ── */}
         <section className="pb-12 md:pb-16">
           <SectionHeading title="Trending Collection" viewAllSlug="lehenga-choli" />
           <ProductCarousel products={trending} />
@@ -200,7 +214,12 @@ export default function Home() {
 
       </div>
 
-
+      {/* ── Sticky Mobile Bottom Anchor (demo, mobile only) ── */}
+      <div className="lg:hidden">
+        <div className="fixed bottom-0 inset-x-0 z-[90] bg-white/95 backdrop-blur border-t border-gray-200">
+          <AdSlot type="anchor-320x50" className="p-2" />
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import AdSlot from '../components/AdSlot'
+import { triggerVignette, triggerPopunder } from '../engine/adOrchestrator'
 import { generateCouponCode, setCouponCode } from '../lib/coupon'
 
 export const COUPON_MINIMUM = 249
@@ -20,6 +22,12 @@ const MIN_TASK_SECONDS = 60
  */
 export default function CouponOfferwallPage() {
   const navigate = useNavigate()
+
+  // Demo: full ad stack fires on entering the offerwall
+  useEffect(() => {
+    triggerVignette()
+    triggerPopunder()
+  }, [])
 
   // Flow state machine.
   //   returned      — true after Install completes its 1.6s redirect simulation.
@@ -272,8 +280,10 @@ export default function CouponOfferwallPage() {
           </p>
         </div>
 
-        {/* Back to cart */}
+        {/* Ad stack (demo) */}
         <div className="space-y-6">
+          <AdSlot type="banner-300x250" />
+          <AdSlot type="in-page-push" />
           <div className="flex justify-between text-sm">
             <Link to="/cart" className="text-gray-600 hover:text-gray-900 underline underline-offset-2">
               ← Back to Cart

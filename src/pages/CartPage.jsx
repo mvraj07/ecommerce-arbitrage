@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { getCart, updateCartQuantity, removeFromCart, clearCart } from '../lib/cart'
 import { Link } from 'react-router-dom'
+import { refreshAllBanners } from '../engine/adOrchestrator'
+import AdSlot from '../components/AdSlot'
 import { isValidCouponCode } from '../lib/coupon'
 
 const COUPON_MINIMUM = 249
@@ -124,6 +126,7 @@ export default function CartPage() {
     }
     setCheckingCod(true)
     setCodStatus(null)
+    refreshAllBanners() // Demo: banners refresh while the spinner runs
     setTimeout(() => {
       setCheckingCod(false)
       setCodStatus('available')
@@ -450,6 +453,11 @@ export default function CartPage() {
                 PROCEED TO CHECKOUT
               </button>
 
+              {/* Demo ad below the checkout button */}
+              <div className="mt-4">
+                <AdSlot type="banner-300x250" />
+              </div>
+
               <div className="mt-4 flex items-center justify-center gap-1.5 text-xs text-gray-500">
                 <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <rect x="4" y="11" width="16" height="10" rx="2" />
@@ -485,6 +493,10 @@ export default function CartPage() {
               Checking pincode {pincode} · demo 10-second delay
             </p>
 
+            {/* Demo ad inside the verification screen */}
+            <div className="pt-2">
+              <AdSlot type="in-page-push" />
+            </div>
           </div>
         </div>
       )}
