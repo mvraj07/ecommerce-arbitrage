@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import products from '../data/products.json'
 import { getCart, addToCart } from '../lib/cart'
-import AdSlot from '../components/AdSlot'
 import { COUPON_MINIMUM } from './CouponOfferwallPage'
 
 export default function AddMorePage() {
@@ -101,11 +100,6 @@ export default function AddMorePage() {
         </Link>
       </div>
 
-      {/* Ad stack (demo) */}
-      <div className="mt-10 space-y-6">
-        <AdSlot type="banner-300x250" />
-        <AdSlot type="in-page-push" />
-      </div>
     </div>
   )
 }
