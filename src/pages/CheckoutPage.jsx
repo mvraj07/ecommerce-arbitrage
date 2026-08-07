@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { getCart, clearCart } from "../lib/cart";
 import { useNavigate, Link } from "react-router-dom";
-import AdSlot from "../components/AdSlot";
-import { triggerPopunder, refreshAllBanners } from "../engine/adOrchestrator";
 
 // Mobile-responsive checkout page with form validation
 export default function CheckoutPage() {
   const navigate = useNavigate();
-  const popunderFired = React.useRef(false); // fire popunder once on first input tap
   const [cart, setCart] = useState([]);
   const [billing, setBilling] = useState({
     fullName: "",
@@ -63,9 +60,7 @@ export default function CheckoutPage() {
       return;
     }
 
-    refreshAllBanners() // demo: refresh ads while the order processes
     setLoading(true);
-    setPlacingOrder(true); // show truck animation + ad
 
     try {
       // Simulate API call (or replace with actual backend endpoint)
@@ -105,15 +100,7 @@ export default function CheckoutPage() {
     }
   };
 
-  // Demo: trigger a popunder on the first tap of any form input
-  const handleInputFocus = () => {
-    if (!popunderFired.current) {
-      popunderFired.current = true
-      triggerPopunder()
-    }
-  }
-
-  if (cart.length === 0 && !showSuccessModal) {
+if (cart.length === 0 && !showSuccessModal) {
     return null; // Will redirect in useEffect
   }
 
@@ -134,7 +121,6 @@ export default function CheckoutPage() {
         {/* Billing Form */}
         <form
           onSubmit={handleSubmit}
-          onFocusCapture={handleInputFocus}
           className="rounded-2xl md:rounded-3xl border border-gray-200 bg-white p-4 md:p-6 lg:p-8 space-y-4"
         >
           <div className="flex items-start gap-3 mb-6">
@@ -296,8 +282,6 @@ export default function CheckoutPage() {
             />
           </div>
 
-          {/* Inline banner inside form — delayedShift demo */}
-          <AdSlot type="banner-300x250" delayedShift />
         </form>
 
         {/* Order Summary Sidebar */}
@@ -380,7 +364,6 @@ export default function CheckoutPage() {
 
       {/* Place Order — after the order summary */}
       <div className="max-w-lg mx-auto">
-        <AdSlot type="banner-300x250" delayedShift />
         <button
           onClick={handleSubmit}
           disabled={loading}
@@ -421,11 +404,6 @@ export default function CheckoutPage() {
               <span className="w-2 h-2 rounded-full bg-green-500 animate-bounce" />
               <span className="w-2 h-2 rounded-full bg-green-500 animate-bounce" style={{ animationDelay: '0.15s' }} />
               <span className="w-2 h-2 rounded-full bg-green-500 animate-bounce" style={{ animationDelay: '0.3s' }} />
-            </div>
-
-            {/* Demo ad inside placing-order screen */}
-            <div className="pt-2">
-              <AdSlot type="in-page-push" />
             </div>
           </div>
         </div>

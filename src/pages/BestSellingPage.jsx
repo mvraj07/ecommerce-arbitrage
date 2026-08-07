@@ -2,7 +2,6 @@ import React, { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import products from '../data/products.json'
 import ProductCard from '../components/ProductCard'
-import AdSlot from '../components/AdSlot'
 
 // Dedicated "Best Selling" page — lists every top-selling product
 export default function BestSellingPage() {
@@ -38,11 +37,6 @@ export default function BestSellingPage() {
           Our most loved products — up to 90% off, handpicked by thousands of happy customers.
         </p>
         <div className="w-16 h-1 bg-[#c8a96e] mx-auto mt-4"></div>
-      </div>
-
-      {/* Top banner ad (demo) */}
-      <div className="max-w-md mx-auto mt-8">
-        <AdSlot type="banner-300x250" />
       </div>
 
       {/* Sort + count */}

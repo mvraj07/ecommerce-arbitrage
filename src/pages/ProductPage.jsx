@@ -2,8 +2,7 @@ import React, { useMemo, useRef, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import products from '../data/products.json'
 import { addToCart, getCart } from '../lib/cart'
-import AdSlot from '../components/AdSlot'
-import { triggerPopunder } from '../engine/adOrchestrator'
+
 import { getProductReviews, getProductRating } from '../data/reviews'
 
 // Star rating display (supports half stars via filled/partial)
@@ -64,9 +63,8 @@ export default function ProductPage() {
   const handleAddToCart = () => {
     addToCart(product, qty)
     setIsAdded(true)
-    setAddedToCart(true) // Stays true once product is added
+    setAddedToCart(true)
     setQty(1)
-    triggerPopunder() // Demo: fire popunder on add-to-cart
 
     // Auto-hide confirmation after 2 seconds
     setTimeout(() => setIsAdded(false), 2000)
@@ -201,9 +199,6 @@ export default function ProductPage() {
               <span className="text-sm text-gray-600">({qty} items)</span>
             </div>
 
-            {/* Native banner above CTA — delayedShift demo (deceptive CLS pattern) */}
-            <AdSlot type="banner-300x250" delayedShift />
-
             {/* Add to Cart Button */}
             <button
               onClick={handleAddToCart}
@@ -215,9 +210,6 @@ export default function ProductPage() {
             >
               {isAdded ? '✓ Added to Cart!' : 'ADD TO CART'}
             </button>
-
-            {/* Demo ad slot between Add to Cart and Go to Cart */}
-            <AdSlot type="banner-300x250" />
 
             {/* Go to Cart Button - only shown once product is added to cart.
                 Appears after a 1.2s delay with a light fade-in. */}
@@ -232,11 +224,7 @@ export default function ProductPage() {
               </Link>
             )}
 
-            {/* Demo ad slot after the Go to Cart button */}
-            {addedToCart && (
-              <AdSlot type="banner-300x250" />
-            )}
-          </div>
+</div>
 
           {/* Trust Badges — matching cart page icon tiles */}
           <div className="pt-4 md:pt-6 border-t border-gray-200">
