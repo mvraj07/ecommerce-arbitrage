@@ -1,191 +1,280 @@
-import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { categories, parentCategories } from '../data/categories'
+import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
-// Component to display category dropdown menu
-function CategoryDropdown({ parent, isOpen, onClose }) {
-  return (
-    <div className="relative">
-      <button className="flex items-center gap-1 hover:text-green-700 transition-colors">
-        {parent.title}
-        <svg className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-        </svg>
-      </button>
-      
-      {/* Desktop dropdown menu */}
-      {isOpen && (
-        <div className="absolute top-full left-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50 hidden lg:block">
-          {parent.subcategories.map(subcat => (
-            <Link
-              key={subcat.slug}
-              to={`/product-category/${subcat.slug}`}
-              onClick={onClose}
-              className="block px-4 py-3 text-sm text-gray-700 hover:bg-green-50 hover:text-green-700 transition-colors first:rounded-t-lg last:rounded-b-lg"
-            >
-              {subcat.title}
-            </Link>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
+const NAV_LINKS = [
+  { label: "Saree", slug: "saree" },
+  { label: "Salwar Suit", slug: "salwar-suit" },
+  { label: "Lehenga Choli", slug: "lehenga-choli" },
+  { label: "Western Wear", slug: "western-wear" },
+  { label: "Best Selling", slug: "best-selling", path: "/best-selling" },
+];
 
-// Header shows logo + category navigation and cart button with mobile support
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [cartTotal, setCartTotal] = useState(0)
-  const [cartCount, setCartCount] = useState(0)
-  const [openDropdown, setOpenDropdown] = useState(null)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [cartCount, setCartCount] = useState(0);
+  const menuRef = useRef(null);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  // Update cart info from localStorage whenever cart changes
-  // This ensures the header always shows current cart state across page navigations
   useEffect(() => {
     const updateCart = () => {
       try {
-        const cart = JSON.parse(localStorage.getItem('cart') || '[]')
-        const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
-        const count = cart.reduce((sum, item) => sum + item.quantity, 0)
-        setCartTotal(total)
-        setCartCount(count)
-      } catch (error) {
-        console.error('Error reading cart from localStorage:', error)
+        const cart = JSON.parse(localStorage.getItem("cart") || "[]");
+        const count = cart.reduce((sum, item) => sum + item.quantity, 0);
+        setCartCount(count);
+      } catch {
+        setCartCount(0);
       }
-    }
-
-    updateCart()
-
-    // Listen for storage changes (when another tab/window updates cart)
-    window.addEventListener('storage', updateCart)
-    // Listen for custom events when cart is updated in the same tab
-    window.addEventListener('cartUpdated', updateCart)
-
+    };
+    updateCart();
+    window.addEventListener("storage", updateCart);
+    window.addEventListener("cartUpdated", updateCart);
     return () => {
-      window.removeEventListener('storage', updateCart)
-      window.removeEventListener('cartUpdated', updateCart)
-    }
-  }, [])
+      window.removeEventListener("storage", updateCart);
+      window.removeEventListener("cartUpdated", updateCart);
+    };
+  }, []);
 
-  const toggleDropdown = (id) => {
-    setOpenDropdown(openDropdown === id ? null : id)
-  }
+  useEffect(() => {
+    document.body.style.overflow = mobileMenuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [mobileMenuOpen]);
 
-  const closeMenus = () => {
-    setMobileMenuOpen(false)
-    setOpenDropdown(null)
-  }
+  // Close the mobile menu when tapping outside the drawer
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const handleOutsideClick = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setMobileMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("touchstart", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("touchstart", handleOutsideClick);
+    };
+  }, [mobileMenuOpen]);
+
+  // Close the mobile menu when swiping left (right-to-left dismiss)
+  const touchStartX = useRef(0);
+  const handleTouchStart = (e) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const handleTouchEnd = (e) => {
+    if (!mobileMenuOpen || !menuRef.current) return;
+    const dx = e.changedTouches[0].clientX - touchStartX.current;
+    if (dx < -40) setMobileMenuOpen(false);
+  };
+
+  const closeAll = () => {
+    setMobileMenuOpen(false);
+    setSearchOpen(false);
+  };
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-40">
-      <div className="mx-auto flex max-w-6xl flex-col gap-3 md:gap-4 px-4 py-3 md:py-4 md:flex-row md:items-center md:justify-between">
-        {/* Logo and Mobile Menu Button */}
-        <div className="flex items-center justify-between gap-3">
-          <Link to="/" onClick={closeMenus} className="flex items-center gap-2 md:gap-3 hover:opacity-80 transition-opacity">
-            <div className="h-9 md:h-11 w-9 md:w-11 rounded-full bg-green-200 flex items-center justify-center text-green-700 font-bold text-sm md:text-base">
-              TB
-            </div>
-            <span className="text-base md:text-lg font-semibold text-gray-900">Tech Besb</span>
-          </Link>
+    <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden flex items-center gap-2 rounded-md border border-gray-300 px-3 py-2 text-sm font-medium hover:bg-gray-50 transition-colors"
-          >
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-            Menu
-          </button>
-
-          {/* Desktop Cart Badge */}
-          <div className="hidden md:flex items-center gap-4 text-sm text-gray-700">
-            <div className="flex items-center gap-2 rounded-full border border-green-300 bg-green-50 px-3 md:px-4 py-2 text-green-700 font-medium">
-              <span>₹{cartTotal.toLocaleString('en-IN')}</span>
-              <span className="rounded-full bg-white px-2 py-1 text-xs font-bold text-green-700">{cartCount}</span>
-            </div>
-            <Link to="/cart" className="rounded-full bg-green-600 px-3 md:px-4 py-2 text-white font-medium hover:bg-green-700 transition-colors text-sm">
-              Cart
-            </Link>
-          </div>
-        </div>
-
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm font-medium text-gray-700">
-          {parentCategories.map(parent => (
-            <div key={parent.id} onMouseEnter={() => setOpenDropdown(parent.id)} onMouseLeave={() => setOpenDropdown(null)}>
-              <CategoryDropdown
-                parent={parent}
-                isOpen={openDropdown === parent.id}
-                onClose={closeMenus}
-              />
-            </div>
-          ))}
-        </nav>
+      {/* Announcement bar */}
+      <div className="bg-gray-900 text-white text-xs text-center py-1.5 px-4 hidden md:block">
+        Free Shipping &nbsp;|&nbsp; 10 Days Easy Return &nbsp;|&nbsp; Cash on Delivery
       </div>
 
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-gray-200">
-          <nav className="space-y-2 px-4 py-4">
-            {parentCategories.map(parent => (
-              <div key={parent.id} className="space-y-2">
-                {/* Parent Category */}
-                <button
-                  onClick={() => toggleDropdown(parent.id)}
-                  className="w-full flex items-center justify-between py-2 px-3 rounded-lg hover:bg-gray-50 transition-colors"
-                >
-                  <span className="font-medium text-gray-900">{parent.title}</span>
-                  <svg
-                    className={`w-4 h-4 transition-transform ${openDropdown === parent.id ? 'rotate-180' : ''}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-                  </svg>
-                </button>
+      {/* ── Single unified row: Logo | Nav | Icons ── */}
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex items-center h-16 md:h-[72px] gap-6">
 
-                {/* Subcategories - Collapsible on mobile */}
-                {openDropdown === parent.id && (
-                  <div className="pl-4 space-y-2 bg-gray-50 rounded-lg py-2">
-                    {parent.subcategories.map(subcat => (
-                      <Link
-                        key={subcat.slug}
-                        to={`/product-category/${subcat.slug}`}
-                        onClick={closeMenus}
-                        className="block py-2 px-3 text-sm text-gray-700 hover:text-green-700 hover:bg-white rounded transition-colors"
-                      >
-                        {subcat.title}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
+          {/* LEFT — Logo */}
+          <div className="flex-none">
+            <Link to="/" onClick={closeAll} className="flex flex-col items-center leading-none">
+              <span className="text-xl md:text-3xl font-bold tracking-widest text-gray-900 uppercase">
+                Bebs
+              </span>
+              <span className="text-[9px] md:text-[11px] tracking-[0.3em] text-gray-400 uppercase hidden sm:block mt-1">
+                Premium Fashion
+              </span>
+            </Link>
+          </div>
+
+          {/* CENTER — Nav links (desktop only) */}
+          <nav className="hidden lg:flex flex-1 items-center justify-center gap-2 lg:gap-6">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.slug}
+                to={link.path || `/product-category/${link.slug}`}
+                className="text-[13px] xl:text-[14px] font-semibold text-gray-800 hover:text-gray-500 transition-colors uppercase tracking-wider whitespace-nowrap"
+              >
+                {link.label}
+              </Link>
             ))}
           </nav>
 
-          {/* Mobile Cart Info and Button */}
-          <div className="border-t border-gray-200 p-4 space-y-3">
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-gray-600">Cart Total:</span>
-              <span className="font-semibold text-green-700">₹{cartTotal.toLocaleString('en-IN')}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span className="text-sm text-gray-600">Items:</span>
-              <span className="font-semibold text-green-700">{cartCount}</span>
-            </div>
+          {/* RIGHT — Icons */}
+          <div className="flex-none flex items-center gap-3 md:gap-4 ml-auto">
+            {/* Search */}
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
+              className="text-gray-600 hover:text-gray-900 transition-colors"
+              aria-label="Search"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+              </svg>
+            </button>
+
+            {/* Account (desktop only) */}
+            <button
+              className="text-gray-600 hover:text-gray-900 transition-colors hidden md:block"
+              aria-label="Account"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM12 14a7 7 0 0 0-7 7h14a7 7 0 0 0-7-7z" />
+              </svg>
+            </button>
+
+            {/* My Orders (desktop only) */}
+            <Link
+              to="/orders"
+              onClick={closeAll}
+              className="text-gray-600 hover:text-gray-900 transition-colors hidden md:block"
+              aria-label="My Orders"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+              </svg>
+            </Link>
+
+            {/* Cart */}
             <Link
               to="/cart"
-              onClick={closeMenus}
-              className="w-full block text-center rounded-full bg-green-600 px-4 py-2 text-white font-medium hover:bg-green-700 transition-colors text-sm"
+              onClick={closeAll}
+              className="relative text-gray-600 hover:text-gray-900 transition-colors"
+              aria-label="Cart"
             >
-              Go to Cart
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 6h12M7 13L5.4 5M10 21a1 1 0 1 0 2 0 1 1 0 0 0-2 0zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0z" />
+              </svg>
+              {cartCount > 0 && (
+                <span className="absolute -top-2 -right-2 bg-gray-900 text-white text-[9px] font-bold rounded-full w-4 h-4 flex items-center justify-center leading-none">
+                  {cartCount}
+                </span>
+              )}
             </Link>
+
+            {/* Mobile hamburger */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden text-gray-700 p-1"
+              aria-label="Menu"
+            >
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                {mobileMenuOpen
+                  ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                }
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Search dropdown */}
+      {searchOpen && (
+        <div className="border-t border-gray-100 bg-white shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 py-3 flex gap-2">
+            <input
+              autoFocus
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search for sarees, suits, lehengas..."
+              className="flex-1 border border-gray-300 rounded px-4 py-2 text-sm focus:outline-none focus:border-gray-500"
+            />
+            <button
+              onClick={() => setSearchOpen(false)}
+              className="bg-gray-900 text-white px-5 py-2 rounded text-sm font-medium hover:bg-gray-700 transition-colors"
+            >
+              Search
+            </button>
           </div>
         </div>
       )}
-    </header>
-  )
+
+      {/* Mobile menu — floating drawer */}
+      {mobileMenuOpen && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black/40 z-40 md:hidden"
+            onClick={() => setMobileMenuOpen(false)}
+            aria-hidden="true"
+          />
+          {/* Drawer panel */}
+          <div
+            ref={menuRef}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            className="fixed inset-y-0 right-0 z-50 w-[280px] max-w-[85vw] bg-white shadow-2xl md:hidden flex flex-col"
+          >
+            {/* Header row */}
+            <div className="flex items-center justify-between px-5 h-14 border-b border-gray-100">
+              <span className="text-sm font-bold uppercase tracking-widest text-gray-900">Menu</span>
+              <button
+                onClick={() => setMobileMenuOpen(false)}
+                className="text-gray-500 hover:text-gray-700 p-1"
+                aria-label="Close menu"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <nav className="flex-1 overflow-y-auto">
+              <div className="divide-y divide-gray-50">
+                {NAV_LINKS.map((link) => (
+                  <Link
+                    key={link.slug}
+                    to={link.path || `/product-category/${link.slug}`}
+                    onClick={closeAll}
+                    className="flex items-center justify-between px-5 py-4 text-sm font-medium text-gray-700 hover:bg-gray-50 uppercase tracking-wide"
+                  >
+                    {link.label}
+                    <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                ))}
+              </div>
+            </nav>
+
+            {/* My Orders + Cart links */}
+            <div className="border-t border-gray-100">
+              <Link
+                to="/orders"
+                onClick={closeAll}
+                className="flex items-center justify-between px-5 py-4 text-sm font-medium text-gray-700 hover:bg-gray-50 uppercase tracking-wide"
+              >
+                My Orders
+                <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
+              <Link
+                to="/cart"
+                onClick={closeAll}
+                className="flex items-center justify-between px-5 py-4 text-sm font-medium text-gray-700 hover:bg-gray-50 uppercase tracking-wide"
+              >
+                Cart {cartCount > 0 && `(${cartCount})`}
+              </Link>
+            </div>
+          </div>
+        </>
+      )}
+      </header>
+  );
 }

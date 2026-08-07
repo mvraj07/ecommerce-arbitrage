@@ -32,10 +32,11 @@ export function saveCart(cart) {
 }
 
 // Add product to cart with specified quantity (default 1)
-// Updates existing item or creates new one
+// Updates existing item or creates new one.
+// Products have no `id` in the data — slug is the unique key.
 export function addToCart(product, qty = 1) {
   const cart = getCart()
-  const existingIdx = cart.findIndex(i => i.id === product.id)
+  const existingIdx = cart.findIndex(i => i.slug === product.slug)
 
   if (existingIdx > -1) {
     // Product already in cart, increase quantity
@@ -43,24 +44,41 @@ export function addToCart(product, qty = 1) {
   } else {
     // New product, add to cart
     cart.push({
-      id: product.id,
+      slug: product.slug,
       title: product.title,
       price: product.price,
       quantity: qty,
-      slug: product.slug,
       image: product.images[0],
       category: product.category
     })
+
+    // Any cart change re-triggers the checkout funnel: reset COD + coupon
+    // gating so the user must verify again.
+    resetCheckoutGating()
   }
 
   saveCart(cart)
   return cart
 }
 
+// Reset COD + coupon gating so the checkout funnel runs again on the next
+// PROCEED TO CHECKOUT click (after any product added / removed / qty changed).
+export function resetCheckoutGating() {
+  try {
+    localStorage.removeItem('codChecked')
+    localStorage.removeItem('couponVisited')
+    localStorage.removeItem('couponApplied')
+    localStorage.removeItem('couponTotal')
+  } catch (error) {
+    console.error('Error resetting checkout gating flags:', error)
+  }
+}
+
 // Remove item from cart by index
 export function removeFromCart(index) {
   const cart = getCart()
   cart.splice(index, 1)
+  resetCheckoutGating()
   saveCart(cart)
   return cart
 }
@@ -73,6 +91,7 @@ export function updateCartQuantity(index, quantity) {
   } else {
     cart[index].quantity = quantity
   }
+  resetCheckoutGating()
   saveCart(cart)
   return cart
 }

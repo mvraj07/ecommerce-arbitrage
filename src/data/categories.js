@@ -1,14 +1,33 @@
-// Hierarchical category structure with parent and subcategories
-// This helps organize products by gender and type for better navigation
-
+// Categories matching khedutmahiti.com nav structure
 export const categories = [
-  // Women's Categories
+  // Women's Categories — matching the nav links exactly
   {
     slug: 'saree',
     title: 'Saree',
     category: 'women',
     description: 'Traditional and modern sarees with elegant designs',
-    heroImage: 'https://images.pexels.com/photos/15359601/pexels-photo-15359601.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    heroImage: 'https://khedutmahiti.com/cdn/shop/collections/Sarees.png?v=1704437489&width=1500'
+  },
+  {
+    slug: 'salwar-suit',
+    title: 'Salwar Suit',
+    category: 'women',
+    description: 'Shop flowing salwar suits with embroidery, prints and modern silhouettes.',
+    heroImage: 'https://khedutmahiti.com/cdn/shop/collections/Salwar-Suit.png?v=1704437473&width=1500'
+  },
+  {
+    slug: 'lehenga-choli',
+    title: 'Lehenga Choli',
+    category: 'women',
+    description: 'Elegant lehengas crafted for celebrations, weddings, and festive nights.',
+    heroImage: 'https://khedutmahiti.com/cdn/shop/collections/Lehenga-Choli.png?v=1704437455&width=1500'
+  },
+  {
+    slug: 'western-wear',
+    title: 'Western Wear',
+    category: 'women',
+    description: 'Modern western wear featuring dresses, jumpsuits, and evening separates.',
+    heroImage: 'https://khedutmahiti.com/cdn/shop/collections/Kurti.png?v=1720152640&width=1500'
   },
   {
     slug: 'kurta',
@@ -18,18 +37,18 @@ export const categories = [
     heroImage: 'https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1200'
   },
   {
-    slug: 'lehenga',
-    title: 'Lehenga',
-    category: 'women',
-    description: 'Festive and party wear lehengas',
-    heroImage: 'https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1200'
-  },
-  {
     slug: 'ethnic-dress',
     title: 'Ethnic Dress',
     category: 'women',
     description: 'Traditional ethnic wear and fusion designs',
     heroImage: 'https://images.pexels.com/photos/1388622/pexels-photo-1388622.jpeg?auto=compress&cs=tinysrgb&w=1200'
+  },
+  {
+    slug: 'top-selling',
+    title: 'Top Selling',
+    category: 'all',
+    description: 'Our most popular products across all categories',
+    heroImage: 'https://images.pexels.com/photos/15359601/pexels-photo-15359601.jpeg?auto=compress&cs=tinysrgb&w=1200'
   },
 
   // Men's Categories

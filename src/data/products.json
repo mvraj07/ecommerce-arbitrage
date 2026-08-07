@@ -1,207 +1,1993 @@
 [
   {
-    "id": "bottle-green-swarovski-saree",
-    "slug": "bottle-green-swarovski-saree",
-    "title": "Bottle Green Swarovski Semi Crepe Designer Saree",
-    "price": 2699,
-    "compare_at_price": 4999,
-    "description": "A luxurious bottle green saree with Swarovski embellishments and premium crepe drape.",
+    "slug": "awesome-green-color-nylon-net-full-embroidered-saree",
+    "title": "Awesome Green Color Nylon Net Full Embroidered Saree",
+    "price": 2099,
+    "compare_at_price": 2728,
+    "description": "Exquisite Green nylon-net saree — finished with intricate detailing, an elegant, dependable choice for festive occasions.",
     "images": [
-      "https://images.pexels.com/photos/18405292/pexels-photo-18405292.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      "https://images.pexels.com/photos/19669248/pexels-photo-19669248.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_d24af2533b67461082a578c11c7aedc6_mv2.jpg"
     ],
     "category": "saree"
   },
   {
-    "id": "threadwork-soft-silk-saree",
-    "slug": "threadwork-soft-silk-saree",
-    "title": "Bottle Green Threadwork Soft Silk Saree",
-    "price": 2699,
-    "compare_at_price": 4899,
-    "description": "Soft silk saree with intricate threadwork for timeless elegance.",
+    "slug": "black-color-fancy-dori-work-heavy-kasturi-silk-georgette-saree",
+    "title": "Black Color Fancy Dori Work Heavy Kasturi Silk Georgette Saree",
+    "price": 2099,
+    "compare_at_price": 2728,
+    "description": "Beautifully crafted Black Kasturi silk saree — with a heavy kasturi accent, a comfortable, flattering fit for weddings and receptions.",
     "images": [
-      "https://images.pexels.com/photos/15458111/pexels-photo-15458111.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_f6dd7933d7c94fe0876387f4b447f749_mv2.jpg"
     ],
     "category": "saree"
   },
   {
-    "id": "zardosi-crepe-saree",
-    "slug": "zardosi-crepe-saree",
-    "title": "Bottle Green Zardosi Crepe Saree",
-    "price": 3699,
-    "compare_at_price": 5999,
-    "description": "Elegant Zardosi-embroidered crepe saree in rich green tones.",
+    "slug": "blue-color-diamond-silk-georgette-sequence-saree",
+    "title": "Blue Color Diamond Silk Georgette Sequence Saree",
+    "price": 2049,
+    "compare_at_price": 2663,
+    "description": "Elegantly tailored Blue georgette saree — with a diamond accent, a refined, polished look for evening celebrations.",
     "images": [
-      "https://images.pexels.com/photos/17530810/pexels-photo-17530810.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_4121beffc86441ff9eb3623aecea145a_mv2.jpg"
     ],
     "category": "saree"
   },
   {
-    "id": "zariwork-georgette-saree",
-    "slug": "zariwork-georgette-saree",
-    "title": "Bottle Green Zariwork Georgette Saree",
-    "price": 3099,
-    "compare_at_price": 5299,
-    "description": "Flowing georgette saree with detailed zariwork and festive charm.",
+    "slug": "black-color-rangoli-silk-designer-party-wear-saree",
+    "title": "Black Color Rangoli Silk Designer Party Wear Saree",
+    "price": 1849,
+    "compare_at_price": 2403,
+    "description": "Refined Black silk saree — with a rangoli accent, an easy, reliable option for formal and casual wear.",
     "images": [
-      "https://images.pexels.com/photos/15209274/pexels-photo-15209274.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_cb68e0ec08e54bc4bca04244955d2bc9_mv2.jpg"
     ],
     "category": "saree"
   },
   {
-    "id": "navy-cotton-kurta",
-    "slug": "navy-cotton-kurta",
-    "title": "Navy Blue Cotton Embroidered Kurta",
-    "price": 1299,
-    "compare_at_price": 2299,
-    "description": "Comfortable cotton kurta with delicate embroidery for everyday wear.",
+    "slug": "banarasi-silk-festival-wear-bright-magenta-color-saree-for-woman",
+    "title": "Banarasi Silk Festival Wear Bright Magenta Color Saree For Woman",
+    "price": 1799,
+    "compare_at_price": 2338,
+    "description": "Striking Magenta Banarasi silk saree — an elegant, dependable choice for festive occasions.",
     "images": [
-      "https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_86fc0d7179064aebafcb21cbaaf0ea23_mv2.jpg"
     ],
-    "category": "kurta"
+    "category": "saree"
   },
   {
-    "id": "maroon-silk-kurta",
-    "slug": "maroon-silk-kurta",
-    "title": "Maroon Silk Printed Kurta",
+    "slug": "black-color-heavy-digital-printed-kasturi-silk-saree",
+    "title": "Black Color Heavy Digital Printed Kasturi Silk Saree",
+    "price": 1749,
+    "compare_at_price": 2273,
+    "description": "Exquisite Black Kasturi silk saree — with a heavy kasturi accent, a comfortable, flattering fit for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_e377f3169f2145fdb205953fad47ada7_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "baby-pink-color-rich-pallu-fancy-sequence-work-partywear-saree",
+    "title": "Baby Pink Color Rich Pallu Fancy Sequence Work Partywear Saree",
+    "price": 1699,
+    "compare_at_price": 2208,
+    "description": "Beautifully crafted Pink saree — with a baby rich pallu accent, a refined, polished look for evening celebrations.",
+    "images": [
+      "/images/products/db74ba_56ec7c73789f48f2aa658867143dacb5_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "beauty-embroidery-work-glossy-red-color-georgette-saree",
+    "title": "Beauty Embroidery Work Glossy Red Color Georgette Saree",
+    "price": 1699,
+    "compare_at_price": 2208,
+    "description": "Elegantly tailored Red georgette saree — with a beauty glossy accent, an easy, reliable option for formal and casual wear.",
+    "images": [
+      "/images/products/db74ba_053fd5ec3c1c44e692db6941768631af_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "black-color-rich-pallu-fancy-sequence-work-partywear-saree",
+    "title": "Black Color Rich Pallu Fancy Sequence Work Partywear Saree",
+    "price": 1699,
+    "compare_at_price": 2208,
+    "description": "Refined Black saree — with a rich pallu partywear accent, an elegant, dependable choice for festive occasions.",
+    "images": [
+      "/images/products/db74ba_82534b379f474cb7b7652a4b6797ef73_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "black-color-sequence-work-partywear-saree",
+    "title": "Black Color Sequence Work Partywear Saree",
+    "price": 1699,
+    "compare_at_price": 2208,
+    "description": "Striking Black saree — with a partywear accent, a comfortable, flattering fit for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_d34786fd7ece45f29fab8ce60e357a6e_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "blue-color-rangoli-silk-designer-party-wear-saree",
+    "title": "Blue Color Rangoli Silk Designer Party Wear Saree",
+    "price": 1649,
+    "compare_at_price": 2143,
+    "description": "Exquisite Blue silk saree — with a rangoli accent, a refined, polished look for evening celebrations.",
+    "images": [
+      "/images/products/db74ba_350a5e7b73bd4042b7171cf00de9d7eb_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "adorable-cream-solid-pattern-ready-to-wear-saree-stitched-blouse-for-woman",
+    "title": "Adorable Cream Solid Pattern Ready To Wear Saree Stitched Blouse For Woman",
     "price": 1599,
-    "compare_at_price": 2799,
-    "description": "Elegant silk kurta with traditional prints, perfect for casual occasions.",
+    "compare_at_price": 2078,
+    "description": "Beautifully crafted Cream saree — an easy, reliable option for formal and casual wear.",
     "images": [
-      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_3d52aa89e72b43dcbeccf34a908740ab_mv2.jpg"
     ],
-    "category": "kurta"
+    "category": "saree"
   },
   {
-    "id": "cream-lehenga-set",
-    "slug": "cream-lehenga-set",
-    "title": "Cream Lehenga Set with Mirror Work",
-    "price": 4999,
-    "compare_at_price": 8999,
-    "description": "Stunning lehenga set with mirror embellishments for festive celebrations.",
+    "slug": "bollywood-style-light-green-flower-digit-print-oragnza-saree",
+    "title": "Bollywood Style Light Green Flower Digit Print Oragnza Saree",
+    "price": 1599,
+    "compare_at_price": 2078,
+    "description": "Elegantly tailored Green saree — with a bollywood digit oragnza accent, an elegant, dependable choice for festive occasions.",
     "images": [
-      "https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_b67534fcb824427ab64a067f1cc2247d_mv2.jpg"
     ],
-    "category": "lehenga"
+    "category": "saree"
   },
   {
-    "id": "red-lehenga-ensemble",
-    "slug": "red-lehenga-ensemble",
-    "title": "Red Lehenga Ensemble with Gold Embroidery",
-    "price": 5499,
-    "compare_at_price": 9999,
-    "description": "Beautiful red lehenga with intricate gold embroidery for weddings and parties.",
+    "slug": "attractive-blue-color-embroidered-party-wear-saree-for-woman",
+    "title": "Attractive Blue Color Embroidered Party Wear Saree For Woman",
+    "price": 1499,
+    "compare_at_price": 1948,
+    "description": "Refined Blue saree — finished with intricate detailing, a comfortable, flattering fit for weddings and receptions.",
     "images": [
-      "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_45cd07f79b68471b8bfe55f13f583fda_mv2.jpg"
     ],
-    "category": "lehenga"
+    "category": "saree"
   },
   {
-    "id": "beige-ethnic-dress",
-    "slug": "beige-ethnic-dress",
-    "title": "Beige Ethnic Fusion Dress",
-    "price": 1899,
-    "compare_at_price": 3499,
-    "description": "Modern fusion of traditional ethnic wear in a contemporary silhouette.",
+    "slug": "beautiful-embroidery-blue-color-georgette-saree-for-woman",
+    "title": "Beautiful Embroidery Blue Color Georgette Saree For Woman",
+    "price": 1499,
+    "compare_at_price": 1948,
+    "description": "Striking Blue georgette saree — finished with intricate detailing, a refined, polished look for evening celebrations.",
     "images": [
-      "https://images.pexels.com/photos/1388622/pexels-photo-1388622.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_913e26b665f04245aa5b1a1c09387d67_mv2.jpg"
     ],
-    "category": "ethnic-dress"
+    "category": "saree"
   },
   {
-    "id": "black-leather-jacket",
-    "slug": "black-leather-jacket",
-    "title": "Premium Black Leather Jacket",
-    "price": 3999,
-    "compare_at_price": 6999,
-    "description": "Classic black leather jacket perfect for casual and semi-formal occasions.",
+    "slug": "bhumi-pednekar-off-white-color-bollywood-saree",
+    "title": "Bhumi Pednekar Off White Color Bollywood Saree",
+    "price": 1499,
+    "compare_at_price": 1948,
+    "description": "Exquisite White saree — an easy, reliable option for formal and casual wear.",
     "images": [
-      "https://images.pexels.com/photos/2769274/pexels-photo-2769274.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_f357b1b576b54c7f8ed4bd9cd56304ef_mv2.jpg"
     ],
-    "category": "jackets"
+    "category": "saree"
   },
   {
-    "id": "navy-denim-jacket",
-    "slug": "navy-denim-jacket",
-    "title": "Navy Blue Denim Jacket",
-    "price": 1999,
-    "compare_at_price": 3499,
-    "description": "Versatile denim jacket for everyday wear and style.",
+    "slug": "blue-color-georgette-crush-fabric-partywear-printed-saree",
+    "title": "Blue Color Georgette Crush Fabric Partywear Printed Saree",
+    "price": 1499,
+    "compare_at_price": 1948,
+    "description": "Beautifully crafted Blue georgette saree — with a fabric partywear accent, an elegant, dependable choice for festive occasions.",
     "images": [
-      "https://images.pexels.com/photos/3926627/pexels-photo-3926627.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_7dbf08727375401c8226d225ba2f9ca2_mv2.jpg"
     ],
-    "category": "jackets"
+    "category": "saree"
   },
   {
-    "id": "white-formal-shirt",
-    "slug": "white-formal-shirt",
-    "title": "White Formal Dress Shirt",
-    "price": 899,
-    "compare_at_price": 1699,
-    "description": "Premium quality white formal shirt for business and formal occasions.",
+    "slug": "banarasi-silk-festival-wear-dark-purple-color-saree-for-woman",
+    "title": "Banarasi Silk Festival Wear Dark Purple Color Saree For Woman",
+    "price": 1399,
+    "compare_at_price": 1818,
+    "description": "Elegantly tailored Purple Banarasi silk saree — a comfortable, flattering fit for weddings and receptions.",
     "images": [
-      "https://images.pexels.com/photos/999474/pexels-photo-999474.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_4d82d97629244fa4ad90d1c08601cefb_mv2.jpg"
     ],
-    "category": "shirts"
+    "category": "saree"
   },
   {
-    "id": "blue-casual-shirt",
-    "slug": "blue-casual-shirt",
-    "title": "Sky Blue Casual Shirt",
-    "price": 799,
-    "compare_at_price": 1499,
-    "description": "Comfortable casual shirt in sky blue for relaxed everyday wear.",
+    "slug": "bright-blue-party-look-cotton-silk-fancy-saree-for-woman",
+    "title": "Bright Blue Party Look Cotton Silk Fancy Saree For Woman",
+    "price": 1399,
+    "compare_at_price": 1818,
+    "description": "Refined Blue cotton-silk saree — finished with intricate detailing, a refined, polished look for evening celebrations.",
     "images": [
-      "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_4a3d2afff78d43bda494a4ebbf11cbdf_mv2.jpg"
     ],
-    "category": "shirts"
+    "category": "saree"
   },
   {
-    "id": "black-graphic-tshirt",
-    "slug": "black-graphic-tshirt",
-    "title": "Black Graphic T-Shirt",
-    "price": 499,
-    "compare_at_price": 999,
-    "description": "Trendy black t-shirt with stylish graphic print.",
+    "slug": "brown-color-woman-soft-cotton-silk-saree-perfect-for-party",
+    "title": "Brown Color Woman Soft Cotton Silk Saree Perfect For Party",
+    "price": 1399,
+    "compare_at_price": 1818,
+    "description": "Striking Brown cotton-silk saree — an easy, reliable option for formal and casual wear.",
     "images": [
-      "https://images.pexels.com/photos/3621607/pexels-photo-3621607.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_2d2d8410cb134dcfa2f5702301fa0eb2_mv2.jpg"
     ],
-    "category": "tshirts"
+    "category": "saree"
   },
   {
-    "id": "white-plain-tshirt",
-    "slug": "white-plain-tshirt",
-    "title": "White Plain T-Shirt",
-    "price": 399,
-    "compare_at_price": 799,
-    "description": "Classic white t-shirt, versatile for any occasion.",
-    "images": [
-      "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1200"
-    ],
-    "category": "tshirts"
-  },
-  {
-    "id": "black-formal-pants",
-    "slug": "black-formal-pants",
-    "title": "Black Formal Pants",
+    "slug": "black-weaving-banarasi-silk-party-wear-saree-for-woman",
+    "title": "Black Weaving Banarasi Silk Party Wear Saree For Woman",
     "price": 1299,
-    "compare_at_price": 2199,
-    "description": "Elegant black formal pants for professional and formal wear.",
+    "compare_at_price": 1688,
+    "description": "Exquisite Black Banarasi silk saree — an elegant, dependable choice for festive occasions.",
     "images": [
-      "https://images.pexels.com/photos/2050994/pexels-photo-2050994.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_eadc032706d444e78787e3759cf1abc3_mv2.jpg"
     ],
-    "category": "pants"
+    "category": "saree"
   },
   {
-    "id": "blue-casual-pants",
-    "slug": "blue-casual-pants",
-    "title": "Navy Blue Casual Pants",
-    "price": 999,
-    "compare_at_price": 1699,
-    "description": "Comfortable casual pants ideal for everyday activities.",
+    "slug": "ajrakh-print-cotton-silk-party-wear-magenta-saree-for-woman",
+    "title": "Ajrakh Print Cotton Silk Party Wear Magenta Saree For Woman",
+    "price": 1199,
+    "compare_at_price": 1558,
+    "description": "Beautifully crafted Magenta cotton-silk saree — with an ajrakh accent, a comfortable, flattering fit for weddings and receptions.",
     "images": [
-      "https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      "/images/products/db74ba_fe3e5a21cc644787a1a853fcf9c72d34_mv2.jpg"
     ],
-    "category": "pants"
+    "category": "saree"
+  },
+  {
+    "slug": "all-over-flower-digital-print-organza-festive-wear-saree",
+    "title": "All Over Flower Digital Print Organza Festive Wear Saree",
+    "price": 1199,
+    "compare_at_price": 1558,
+    "description": "Elegantly tailored Organza saree — with an all over organza accent, a refined, polished look for evening celebrations.",
+    "images": [
+      "/images/products/db74ba_89bd1e4cead443b09de759e4ad77a508_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "aqua-blue-all-over-ajrakh-print-cotton-silk-party-wear-saree-for-woman",
+    "title": "Aqua Blue All Over Ajrakh Print Cotton Silk Party Wear Saree For Woman",
+    "price": 1199,
+    "compare_at_price": 1558,
+    "description": "Refined Blue cotton-silk saree — with an aqua all over accent, an easy, reliable option for formal and casual wear.",
+    "images": [
+      "/images/products/db74ba_59fa4c2527424b4db0aa2e10e7493424_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "alia-bhatt-red-color-heavy-satin-creap-silk-saree",
+    "title": "Alia Bhatt Red Color Heavy Satin Creap Silk Saree",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Striking Red satin saree — with an alia bhatt heavy accent, an elegant, dependable choice for festive occasions.",
+    "images": [
+      "/images/products/db74ba_4abfd88944564ee3b82f553c597097c0_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "all-over-print-heavy-dola-silk-black-color-saree-for-woman",
+    "title": "All Over Print Heavy Dola Silk Black Color Saree For Woman",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Exquisite Black silk saree — with an all over heavy accent, a comfortable, flattering fit for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_7352627826f64933b9c0c932c0ce2728_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "awesome-flower-digital-print-organza-festive-look-purple-color-saree",
+    "title": "Awesome Flower Digital Print Organza Festive Look Purple Color Saree",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Beautifully crafted Purple organza saree — with an organza festive accent, a refined, polished look for evening celebrations.",
+    "images": [
+      "/images/products/db74ba_ab89e584b5d7458382d7725c7d4946f2_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "bandhni-delight-black-color-digital-print-party-wear-saree",
+    "title": "Bandhni Delight Black Color Digital Print Party Wear Saree",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Elegantly tailored Black saree — with a bandhni delight accent, an easy, reliable option for formal and casual wear.",
+    "images": [
+      "/images/products/db74ba_4a6627601eb94bd3bc932c25e39113d1_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "bandhni-delight-red-color-digital-print-party-wear-saree",
+    "title": "Bandhni Delight Red Color Digital Print Party Wear Saree",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Refined Red saree — with a bandhni delight accent, an elegant, dependable choice for festive occasions.",
+    "images": [
+      "/images/products/db74ba_143e442f906742d49308d0f4c07e82d8_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "black-designer-fancy-thread-paper-mirror-work-saree",
+    "title": "Black Designer Fancy Thread Paper Mirror Work Saree",
+    "price": 1099,
+    "compare_at_price": 1428,
+    "description": "Striking Black saree — with a paper accent, a comfortable, flattering fit for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_b177fd0b46464912b4ac4195d46d1d80_mv2.jpg"
+    ],
+    "category": "saree"
+  },
+  {
+    "slug": "georgette-pink-color-designer-semi-stitched-gown",
+    "title": "Georgette Pink Color Designer Semi Stitched Gown",
+    "price": 2599,
+    "compare_at_price": 3378,
+    "description": "Exquisite Pink georgette gown — a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_a1d15130e007409aa6175ad9620cee9d_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-embroidery-work-party-wear-gown",
+    "title": "Black Color Embroidery Work Party Wear Gown",
+    "price": 2399,
+    "compare_at_price": 3118,
+    "description": "Beautifully crafted Black gown — finished with intricate detailing, an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_7e194f3bb7bd4d25b440c703ad5cda6c_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "georgette-peach-color-embroidered-work-party-wear-gown",
+    "title": "Georgette Peach Color Embroidered Work Party Wear Gown",
+    "price": 2399,
+    "compare_at_price": 3118,
+    "description": "Elegantly tailored Peach georgette gown — finished with intricate detailing, an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_6e88d728070a47b29c3a8ae93abdf812_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "georgette-semi-stitched-baby-pink-color-designer-gown",
+    "title": "Georgette Semi Stitched Baby Pink Color Designer Gown",
+    "price": 2399,
+    "compare_at_price": 3118,
+    "description": "Refined Pink georgette gown — a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/db74ba_af7f8a35162e4e57a7d779b16ec55b68_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "embroidery-thread-work-off-white-color-chain-stitched-salwar-suit",
+    "title": "Embroidery Thread Work Off White Color Chain Stitched Salwar Suit",
+    "price": 2299,
+    "compare_at_price": 2988,
+    "description": "Striking White gown — with an off chain accent, a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_59001410610f4853bdd51d4ee0f7b5ec_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "georgette-mustard-yellow-color-thread-embroidery-work-sharara-suit",
+    "title": "Georgette Mustard Yellow Color Thread Embroidery Work Sharara Suit",
+    "price": 2299,
+    "compare_at_price": 2988,
+    "description": "Exquisite Mustard georgette gown — with a sharara accent, an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_e114b23068dc4412abd33b8e9cbd8b4d_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "alia-bhatt-black-georgette-indian-semi-stitched-salwar-suit",
+    "title": "Alia Bhatt Black Georgette Indian Semi Stitched Salwar Suit",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Beautifully crafted Black georgette gown — an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_ce9ad82f07d346898cdea43a88481c43_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-sequance-work-designer-salwar-suit",
+    "title": "Black Color Sequance Work Designer Salwar Suit",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Elegantly tailored Black gown — with a sequance accent, a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/db74ba_a093fc022edd493db925fa3dc0bbbb7f_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "dazzling-kajal-in-peacock-blue-color-printed-sharara-suit",
+    "title": "Dazzling Kajal In Peacock Blue Color Printed Sharara Suit",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Refined Blue gown — with a dazzling kajal in accent, a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_7f0f92be3d554b26b4b13ade111a116b_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "fancy-embroidered-green-color-party-look-gown-with-jacket",
+    "title": "Fancy Embroidered Green Color Party Look Gown With Jacket",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Striking Green gown — with a jacket accent, an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_4717a66984224193b7757db9f7ea61d9_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "fancy-embroidered-pista-color-party-look-gown-with-jacket",
+    "title": "Fancy Embroidered Pista Color Party Look Gown With Jacket",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Exquisite gown — with a pista jacket accent, an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_56a4f9c78e1b4e58919d899964d80467_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "floor-length-pastel-green-color-designer-party-wear-gown",
+    "title": "Floor Length Pastel Green Color Designer Party Wear Gown",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Beautifully crafted Green gown — a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/db74ba_3b32168316dd4c93a4adad9e7bc9d0b5_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "georgette-black-color-embroidered-work-salwar-suit",
+    "title": "Georgette Black Color Embroidered Work Salwar Suit",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Elegantly tailored Black georgette gown — finished with intricate detailing, a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_0fb9ec56bad84899a91dd19ed8ec1037_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "anjum-fakih-bollywood-style-pastel-green-color-sharara-suit",
+    "title": "Anjum Fakih Bollywood Style Pastel Green Color Sharara Suit",
+    "price": 2099,
+    "compare_at_price": 2728,
+    "description": "Refined Green gown — an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_371556e96d584b3b9134b978f7f6ae6b_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "most-demanding-sequence-work-maroon-color-designer-gown",
+    "title": "Most Demanding Sequence Work Maroon Color Designer Gown",
+    "price": 2099,
+    "compare_at_price": 2728,
+    "description": "Striking Maroon gown — with a most demanding accent, an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_d58d622acfd34eefb4db03b7b82555c8_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-designer-semi-stitched-salwar-suit",
+    "title": "Black Color Designer Semi Stitched Salwar Suit",
+    "price": 1999,
+    "compare_at_price": 2598,
+    "description": "Exquisite Black gown — a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/db74ba_506974f1783c46bcaa6dc90e309eec44_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-georgette-designer-salwar-suit",
+    "title": "Black Color Georgette Designer Salwar Suit",
+    "price": 1999,
+    "compare_at_price": 2598,
+    "description": "Beautifully crafted Black georgette gown — a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_e1ae8905a84a4cbb801642d38de310c1_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "green-color-designer-floor-length-salwar-suit",
+    "title": "Green Color Designer Floor Length Salwar Suit",
+    "price": 1699,
+    "compare_at_price": 2208,
+    "description": "Elegantly tailored Green gown — an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_de99a5674c1d4bfcb79655a07808e4a7_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "bollywood-style-hina-khan-western-salwar-suit",
+    "title": "Bollywood Style Hina Khan Western Salwar Suit",
+    "price": 1649,
+    "compare_at_price": 2143,
+    "description": "Refined gown — with a bollywood hina khan accent, an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_06b0aa2ea5a442ae9b697b092414db4f_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "american-crepe-digital-printed-cherry-color-sharara-suit",
+    "title": "American Crepe Digital Printed Cherry Color Sharara Suit",
+    "price": 1599,
+    "compare_at_price": 2078,
+    "description": "Striking Crepe gown — with an american crepe cherry accent, a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/db74ba_1d6122b20fbd418790f25931bd1bcce2_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-seunce-work-designer-plazo-suit",
+    "title": "Black Color Seunce Work Designer Plazo Suit",
+    "price": 1549,
+    "compare_at_price": 2013,
+    "description": "Exquisite Black gown — with a seunce plazo accent, a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/db74ba_0eba557b6c6842ea9760a14100c9c41f_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "black-color-bollywood-style-top-plazo",
+    "title": "Black Color Bollywood Style Top Plazo",
+    "price": 1499,
+    "compare_at_price": 1948,
+    "description": "Beautifully crafted Black gown — an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/db74ba_fb8070231fd64e9994073956331f88b3_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "fancy-multi-thread-work-yellow-color-bollywood-style-suit",
+    "title": "Fancy Multi Thread Work Yellow Color Bollywood Style Suit",
+    "price": 1199,
+    "compare_at_price": 1558,
+    "description": "Elegantly tailored Yellow gown — with a multi bollywood accent, an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/db74ba_6e6cdead91e049598ab3dfa23635d4f6_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "new-arrival-pink-dress-on-sale",
+    "title": "New Arrival Pink Dress On Sale",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Refined Pink gown — a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/cec01f_03b214460f4f4bc6a2af477eef5a67b1_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "white-dress-on-sale",
+    "title": "White Dress On Sale",
+    "price": 169,
+    "compare_at_price": 219,
+    "description": "Striking White gown — a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/cec01f_342ce3fd6b27448d888e54d6bc689a1d_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "new-arrival-orange-dress-on-sale",
+    "title": "New Arrival Orange Dress On Sale",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Exquisite Orange gown — an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/cec01f_65590a8f3ffd472e8e172550f20d1e71_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "latest-green-color-designer-dress-on-sale",
+    "title": "Latest Green Color Designer Dress On Sale",
+    "price": 129,
+    "compare_at_price": 167,
+    "description": "Beautifully crafted Green gown — an elegant, dependable choice for office hours and festive outings.",
+    "images": [
+      "/images/products/cec01f_819e4b8a1e2b4105a51051521261ef38_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "premium-pink-and-purple-dress-on-sale",
+    "title": "Premium Pink And Purple Dress On Sale",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Elegantly tailored Pink gown — a comfortable, flattering fit for everyday wear.",
+    "images": [
+      "/images/products/cec01f_deb8a49bc5db4fa7af5e947fa5d16f94_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "new-arrival-off-white-dress-on-sale",
+    "title": "New Arrival Off-White Dress On Sale",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Refined White gown — a refined, polished look for casual weekends.",
+    "images": [
+      "/images/products/cec01f_dbfc2e354fc74c588e3c9a4a6368bf73_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "fabulous-sky-blue-designer-dress-on-sale",
+    "title": "Fabulous Sky Blue Designer Dress On Sale",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Striking Sky gown — an easy, reliable option for special occasions.",
+    "images": [
+      "/images/products/cec01f_9fb147dab2fe43579e6ecb7a604e92ac_mv2.jpg"
+    ],
+    "category": "salwar-suit"
+  },
+  {
+    "slug": "admirable-georgette-thread-and-embroidery-work-black-lehengha",
+    "title": "Admirable Georgette Thread and Embroidery Work Black Lehengha",
+    "price": 3399,
+    "compare_at_price": 4418,
+    "description": "Exquisite Black georgette lehenga — with an admirable accent, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_d9a57cff6f004f3d9f9d5088a70f70f6_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "adorable-black-embroidered-georgette-fabric-lehenga-for-woman",
+    "title": "Adorable Black Embroidered Georgette Fabric Lehenga For Woman",
+    "price": 2349,
+    "compare_at_price": 3053,
+    "description": "Beautifully crafted Black georgette lehenga — with a fabric accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_8208e97d34674b00b7fe786b96e2bc24_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "adorable-sky-blue-flower-embroidered-lehengha-choli",
+    "title": "Adorable Sky Blue Flower Embroidered Lehengha Choli",
+    "price": 3499,
+    "compare_at_price": 4548,
+    "description": "Elegantly tailored Sky lehenga — finished with intricate detailing, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_e899e57e472244fc8a2f3d2dc1d32b8c_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "adorable-velvet-fabric-with-gold-sequence-work-party-wear-lehengha",
+    "title": "Adorable Velvet Fabric With Gold Sequence Work Party Wear Lehengha",
+    "price": 2149,
+    "compare_at_price": 2793,
+    "description": "Refined Velvet lehenga — with a velvet fabric gold accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_ee16ce3bec864fd29275a7bc7ae9a5c9_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "adorable-velvet-fabric-with-maroon-sequence-work-party-wear-lehengha",
+    "title": "Adorable Velvet Fabric With Maroon Sequence Work Party Wear Lehengha",
+    "price": 2149,
+    "compare_at_price": 2793,
+    "description": "Striking Maroon velvet lehenga — with a velvet fabric accent, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_497929d53d14414a8b54cd04cbc2dc19_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "adorable-velvet-fabric-with-silver-sequence-work-party-wear-lehengha",
+    "title": "Adorable Velvet Fabric With Silver Sequence Work Party Wear Lehengha",
+    "price": 2149,
+    "compare_at_price": 2793,
+    "description": "Exquisite Velvet lehenga — with a velvet fabric silver accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_726c49bc15c54e369f6bbc3a9387533e_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "alia-bhatt-lovely-embroidered-work-lehengha-choli-for-woman",
+    "title": "Alia Bhatt Lovely Embroidered Work Lehengha Choli For Woman",
+    "price": 3499,
+    "compare_at_price": 4548,
+    "description": "Beautifully crafted lehenga — with an alia bhatt lovely accent, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_ad71c321a8bf4d8bb3025cdb92d83793_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "all-over-digital-print-lace-work-organza-fabric-lehengha-choli",
+    "title": "All Over Digital Print Lace Work Organza Fabric Lehengha Choli",
+    "price": 2949,
+    "compare_at_price": 3833,
+    "description": "Elegantly tailored Organza lehenga — with an all over lace accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_9b54406cd6d346c08e22f7617490b9b0_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "all-over-embroidered-pattern-peach-color-party-wear-lehenga-choli",
+    "title": "All Over Embroidered Pattern Peach Color Party Wear Lehenga Choli",
+    "price": 2149,
+    "compare_at_price": 2793,
+    "description": "Refined Peach lehenga — with an all over pattern accent, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_c8f7ee039f8343b1af101f6973cefc51_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "all-over-embroidered-pattern-sky-blue-color-party-wear-lehenga-choli",
+    "title": "All Over Embroidered Pattern Sky Blue Color Party Wear Lehenga Choli",
+    "price": 2399,
+    "compare_at_price": 3118,
+    "description": "Striking Sky lehenga — with an all over pattern accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_70bb8e8c51ed45fb8234b89d2487604d_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "amazing-flower-pattern-embroidery-with-off-white-net-lehengh-choli",
+    "title": "Amazing Flower Pattern Embroidery With Off White Net Lehengh Choli",
+    "price": 3199,
+    "compare_at_price": 4158,
+    "description": "Exquisite White net lehenga — with an amazing pattern off accent, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_2656abccad434093979fd9184cbc9388_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-cerulean-blue-satin-lehengha-choli-for-woman",
+    "title": "Awesome Cerulean Blue Satin Lehengha Choli For Woman",
+    "price": 1349,
+    "compare_at_price": 1753,
+    "description": "Beautifully crafted Blue satin lehenga — an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_734d629b3f8d42c994059e0100c87314_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-embroidered-design-with-stuning-pink-color-lehengha-chol",
+    "title": "Awesome Embroidered Design With Stuning Pink Color Lehengha Chol",
+    "price": 2849,
+    "compare_at_price": 3703,
+    "description": "Elegantly tailored Pink lehenga — with a stuning chol accent, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_f6bd13a36f3145f6ab497d7901145fcf_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-embroidery-work-wedding-wear-lehengha-choli-for-woman",
+    "title": "Awesome Embroidery Work Wedding wear Lehengha Choli for Woman",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Refined lehenga — with a wedding accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_e9f2557ff96f41ec957f7aec1f113b43_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-hot-red-color-full-embroidered-lehenga-choli",
+    "title": "Awesome Hot Red Color Full Embroidered Lehenga Choli",
+    "price": 2199,
+    "compare_at_price": 2858,
+    "description": "Striking Red lehenga — with a hot accent, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_c160ab73b64845dc9b77ae77ad538ba4_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-linen-embroidery-pattern-blue-lehengha-choli-collection",
+    "title": "Awesome Linen Embroidery Pattern Blue Lehengha Choli Collection",
+    "price": 3699,
+    "compare_at_price": 4808,
+    "description": "Exquisite Blue lehenga — with a linen pattern accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_e201145b840b4b3ab927394f58091cf3_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-royal-blue-satin-banglory-faric-festival-wear-lehenga-choli",
+    "title": "Awesome Royal Blue Satin Banglory Faric Festival Wear Lehenga Choli.",
+    "price": 1949,
+    "compare_at_price": 2533,
+    "description": "Beautifully crafted Blue satin lehenga — an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_417e272209214b2b88cea3749cad3e0f_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "awesome-trendy-embroidery-design-peach-lehengha-choli",
+    "title": "Awesome Trendy Embroidery Design Peach Lehengha Choli",
+    "price": 2499,
+    "compare_at_price": 3248,
+    "description": "Elegantly tailored Peach lehenga — with a trendy accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_16ef2bf66d7f42dd8ef9363b4e9875a0_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "beautiful-embroidery-work-yellow-color-lehengha-choli-for-woman",
+    "title": "Beautiful Embroidery Work Yellow color Lehengha Choli For Woman",
+    "price": 2949,
+    "compare_at_price": 3833,
+    "description": "Refined Yellow lehenga — finished with intricate detailing, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_a929a85e2ff34b758c9cdd0ae998ef80_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "beautiful-peach-color-with-embroiderred-lehenga-choli-for-party-wear",
+    "title": "Beautiful Peach Color With Embroiderred Lehenga Choli For Party Wear",
+    "price": 2599,
+    "compare_at_price": 3378,
+    "description": "Striking Peach lehenga — with an embroiderred accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_d0bf224894ba460da38cc2b8e6dff530_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "beautiful-pink-color-embroidered-lehengha-for-woman",
+    "title": "Beautiful Pink Color Embroidered Lehengha For Woman",
+    "price": 3499,
+    "compare_at_price": 4548,
+    "description": "Exquisite Pink lehenga — finished with intricate detailing, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_85039acaad864232a091ead80b760898_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "bollywood-style-madhuri-dixit-yellow-color-multi-work-lehenga-choli",
+    "title": "Bollywood Style Madhuri Dixit Yellow Color Multi Work Lehenga Choli",
+    "price": 2599,
+    "compare_at_price": 3378,
+    "description": "Beautifully crafted Yellow lehenga — with a bollywood madhuri dixit accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_52d0f319168842fab923baad8c623405_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "bridal-choli-look-classical-embroidery-maroon-color-for-woman",
+    "title": "Bridal Choli Look Classical Embroidery Maroon Color For Woman",
+    "price": 3199,
+    "compare_at_price": 4158,
+    "description": "Elegantly tailored Maroon lehenga — with a bridal classical accent, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_a6d488fab53b4aab8a5cba4f65ced957_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "bridal-look-collection-maroon-color-embroidery-velvet-lehengha-choli",
+    "title": "Bridal Look Collection Maroon Color Embroidery Velvet Lehengha Choli",
+    "price": 3199,
+    "compare_at_price": 4158,
+    "description": "Refined Maroon velvet lehenga — with a bridal velvet accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_ae42780b99a74489b0adbe0d0062959e_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "brighter-parrot-color-occasionally-look-lehengha-choli",
+    "title": "Brighter Parrot Color Occasionally Look Lehengha Choli",
+    "price": 1949,
+    "compare_at_price": 2533,
+    "description": "Striking lehenga — with a brighter parrot occasionally accent, an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_f0bf4c0865b14751a47ce98c9c9a1a3c_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "brighter-yellow-embroidery-tiger-silk-fabric-lehengha-collection",
+    "title": "Brighter Yellow Embroidery Tiger Silk Fabric Lehengha Collection",
+    "price": 3049,
+    "compare_at_price": 3963,
+    "description": "Exquisite Yellow silk lehenga — with a brighter tiger fabric accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/db74ba_81b27b916e1e4a30bf49fc783f1022a5_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "claasical-embroidery-pattern-with-lace-work-lehengha",
+    "title": "Claasical Embroidery Pattern With Lace Work Lehengha",
+    "price": 4299,
+    "compare_at_price": 5588,
+    "description": "Beautifully crafted lehenga — with a claasical pattern lace accent, a refined, polished look for special occasions.",
+    "images": [
+      "/images/products/db74ba_818bd5b98ab149b8b98602debda7de56_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "classical-peacock-pattern-work-blue-lehenga-collection",
+    "title": "Classical Peacock Pattern Work Blue Lehenga Collection",
+    "price": 2849,
+    "compare_at_price": 3703,
+    "description": "Elegantly tailored Blue lehenga — with a classical peacock pattern accent, an easy, reliable option for bridal functions.",
+    "images": [
+      "/images/products/db74ba_21a2ed9822f74978b4fd7a98813e763c_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "classy-blaack-and-white-american-crepe-fabric-lehenga-choli",
+    "title": "Classy Blaack And White American Crepe Fabric Lehenga Choli",
+    "price": 1949,
+    "compare_at_price": 2533,
+    "description": "Refined White crepe lehenga — an elegant, dependable choice for weddings and receptions.",
+    "images": [
+      "/images/products/db74ba_41b2db983d1040319a79c78d1f7b11f2_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "new-arrival-gown-on-sale",
+    "title": "New Arrival Gown On Sale",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Striking lehenga — with an arrival on sale accent, a comfortable, flattering fit for festive nights.",
+    "images": [
+      "/images/products/cec01f_3a34e9cd3b8142e09b82750e96e865d1_mv2.jpg"
+    ],
+    "category": "lehenga-choli"
+  },
+  {
+    "slug": "beige-striped-v-neck-waist-belted-dress",
+    "title": "Beige Striped V-Neck Waist Belted Dress",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Exquisite Beige outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_9eef2285b0124c85bbd459b51d9b9e5f_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "pink-short-sleeves-oversized-shirt",
+    "title": "Pink Short Sleeves Oversized Shirt",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Beautifully crafted Pink outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_a1b5662298be4d739e569c30dd58c86f_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "green-lapel-collar-sleeveless-trench-coat",
+    "title": "Green Lapel Collar Sleeveless Trench Coat",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Elegantly tailored Green outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_718dce832d8542bda7f24692e3bbcb6d_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "mustard-detachable-belt-midi-shirt-dress",
+    "title": "Mustard Detachable Belt Midi Shirt Dress",
+    "price": 199,
+    "compare_at_price": 258,
+    "description": "Refined Mustard outfit — a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_559b1302fcbd471fa241f46d25020bc9_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "peach-high-rise-mini-skirt",
+    "title": "Peach High-Rise Mini Skirt",
+    "price": 179,
+    "compare_at_price": 232,
+    "description": "Striking Peach outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_80fc02b53f494954b30e81dd4d2e80b4_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "blue-striped-long-sleeve-oversized-shirt",
+    "title": "Blue Striped Long Sleeve Oversized Shirt",
+    "price": 179,
+    "compare_at_price": 232,
+    "description": "Exquisite Blue outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_13c504f8b7a94943a9563572dede8a38_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "pink-striped-straight-fit-trousers",
+    "title": "Pink Striped Straight Fit Trousers",
+    "price": 179,
+    "compare_at_price": 232,
+    "description": "Beautifully crafted Pink outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_d1a63caff0814b35a4c51c0afe87a270_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "black-abstract-printed-v-neck-midi-dress",
+    "title": "Black Abstract Printed V-Neck Midi Dress",
+    "price": 179,
+    "compare_at_price": 232,
+    "description": "Elegantly tailored Black outfit — with an abstract v-neck midi accent, a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_b42eff8f652f4027b622b9d53bcbdc35_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "teal-ruffle-me-up-top",
+    "title": "Teal Ruffle Me Up Top",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Refined Teal outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_edba054f3fd748f98bf03c1321925541_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "feeling-bright-magenta-long-sleeve-shirt-trouser-co-ord-set",
+    "title": "Feeling Bright Magenta Long Sleeve Shirt &amp; Trouser Co-ord Set",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Striking Magenta outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_af9a53690501400fa0d165c3090336c8_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "beige-shirt-collared-crop-top-wide-leg-trousers-co-ord-set",
+    "title": "Beige Shirt Collared Crop Top &amp; Wide Leg Trousers Co-Ord Set",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Exquisite Beige outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_6ce29f32d4dc4599b636dd99d372738a_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "white-long-sleeve-oversized-shirt",
+    "title": "White Long Sleeve Oversized Shirt",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Beautifully crafted White outfit — a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_7351bc52eb294fb584b84a3664794f5c_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "peach-one-shoulder-top",
+    "title": "Peach One-Shoulder Top",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Elegantly tailored Peach outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_f238f8460c9b4db3b7f215b27f19cab1_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "white-piping-full-sleeve-bib-shirt",
+    "title": "White Piping Full Sleeve Bib Shirt",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Refined White outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_d385e574a3b34067a03f71fea8b27374_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "green-self-design-long-sleeve-shirt",
+    "title": "Green Self Design Long Sleeve Shirt",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Striking Green outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_18ce84ffda5941f38cdc0febb8c924c0_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "black-textured-handbag-pouch-set",
+    "title": "Black Textured Handbag &amp; Pouch Set",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Exquisite Black outfit — a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_154b374c759748bd890d80ddd37f45b2_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "teal-abstract-printed-puff-sleeve-shirt-shorts-co-ord-set",
+    "title": "Teal Abstract Printed Puff Sleeve Shirt &amp; Shorts Co-Ord Set",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Beautifully crafted Teal outfit — with an abstract puff sleeve accent, a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_1ae2ca7feb8d4d72a5f9ef940ae630b8_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "white-v-neck-ruffled-sleeve-maxi-dress",
+    "title": "White V-Neck Ruffled Sleeve Maxi Dress",
+    "price": 149,
+    "compare_at_price": 193,
+    "description": "Elegantly tailored White outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_695125b8c62d425aa4db3c035d06ae13_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "navy-blue-one-shoulder-top",
+    "title": "Navy Blue One-Shoulder Top",
+    "price": 146,
+    "compare_at_price": 189,
+    "description": "Refined Navy outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_d70d955ccb2e42b4b6c45fbfb4757b53_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "lavender-halter-neck-sleeveless-crop-top",
+    "title": "Lavender Halter Neck Sleeveless Crop Top",
+    "price": 146,
+    "compare_at_price": 189,
+    "description": "Striking outfit — with a lavender halter neck accent, a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_625e96b7ec3b4f3b9800f7dee08fb8f0_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "white-striped-high-rise-midi-skirt",
+    "title": "White Striped High-Rise Midi Skirt",
+    "price": 146,
+    "compare_at_price": 189,
+    "description": "Exquisite White outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_ea39eb35535541f3bcb0b1e124107653_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "classy-white-wrapped-full-sleeves-top",
+    "title": "Classy White Wrapped Full Sleeves Top",
+    "price": 120,
+    "compare_at_price": 156,
+    "description": "Beautifully crafted White outfit — an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_d30685786f094f43b6c05956929bba83_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "navy-blue-high-rise-mini-skirt",
+    "title": "Navy Blue High-Rise Mini Skirt",
+    "price": 120,
+    "compare_at_price": 156,
+    "description": "Elegantly tailored Navy outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_a469bea16dc1432492ed27e8c48d4de2_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "navy-blue-v-neck-wrap-dress",
+    "title": "Navy Blue V-Neck Wrap Dress",
+    "price": 120,
+    "compare_at_price": 156,
+    "description": "Refined Navy outfit — a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_d92cb6caaf624bb1b57cdf5c1aeae380_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "white-hand-embroidered-shirt",
+    "title": "White Hand Embroidered Shirt",
+    "price": 120,
+    "compare_at_price": 156,
+    "description": "Striking White outfit — with a hand accent, a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_65bd2c443ac546a3bc08b99809069b2a_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "blue-printed-high-rise-a-line-mini-skirt",
+    "title": "Blue Printed High-Rise A-Line Mini Skirt",
+    "price": 119,
+    "compare_at_price": 154,
+    "description": "Exquisite Blue outfit — with a high-rise a-line mini accent, an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_bb8f621448064b2c8228bffaec6f1b1a_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "blue-button-down-sleeveless-coat",
+    "title": "Blue Button Down Sleeveless Coat",
+    "price": 119,
+    "compare_at_price": 154,
+    "description": "Beautifully crafted Blue outfit — an elegant, dependable choice for evening events.",
+    "images": [
+      "/images/products/a20d60_783592b5019d454a9b26f8bd36d57156_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "black-v-neck-sleeveless-front-slit-dress",
+    "title": "Black V-Neck Sleeveless Front Slit Dress",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Elegantly tailored Black outfit — a comfortable, flattering fit for office wear.",
+    "images": [
+      "/images/products/a20d60_0889efa2cdc949b78c53b48f4c3e3036_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "green-halter-neck-sleeveless-crop-top",
+    "title": "Green Halter Neck Sleeveless Crop Top",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Refined Green outfit — a refined, polished look for weekend outings.",
+    "images": [
+      "/images/products/a20d60_f8177e351f114b36b1174b690ff8fd40_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "pink-marble-embroidered-shirt",
+    "title": "Pink Marble Embroidered Shirt",
+    "price": 99,
+    "compare_at_price": 128,
+    "description": "Striking Pink outfit — with a marble accent, an easy, reliable option for smart-casual looks.",
+    "images": [
+      "/images/products/a20d60_66285d7720354938a534098bb9201d9b_mv2.jpg"
+    ],
+    "category": "western-wear"
+  },
+  {
+    "slug": "pink-floral-print-embellished-stitched-lehenga-choli",
+    "title": "Pink Floral Print, Embellished Stitched Lehenga Choli",
+    "price": 199,
+    "compare_at_price": 796,
+    "description": "Exquisite Pink piece — with an embellished accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/TW-01.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "hand-block-printed-embroidered-kurta-set",
+    "title": "Hand Block Printed Embroidered Kurta Set",
+    "price": 149,
+    "compare_at_price": 710,
+    "description": "Beautifully crafted piece — with a hand accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/KM-1.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "black-colour-faux-georgette-thread-work-gown-with-shrug",
+    "title": "Black Colour Faux Georgette Thread Work Gown With Shrug",
+    "price": 149,
+    "compare_at_price": 710,
+    "description": "Elegantly tailored Black georgette piece — with a faux shrug accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/01_39c390b6-1f76-4ce3-a007-959f10d79db1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "men-s-black-elastic-waist-smart-casual-stretch-trousers-1",
+    "title": "Men’s Black Elastic Waist Smart Casual Stretch Trousers",
+    "price": 99,
+    "compare_at_price": 291,
+    "description": "Refined Black piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/99-Black1_3e80dfd4-5f73-4cec-8d35-03430170ea7f.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "men-s-beige-slim-fit-cotton-pants",
+    "title": "Men’s Beige Slim-Fit Cotton Pants",
+    "price": 99,
+    "compare_at_price": 300,
+    "description": "Striking Beige cotton piece — an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/Green1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "mens-premium-acid-wash-graphic-t-shirt",
+    "title": "Men&#39;s Premium Acid-Wash Graphic T-Shirt",
+    "price": 99,
+    "compare_at_price": 341,
+    "description": "Exquisite piece — with a #39;s acid-wash graphic accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "cargo-cotton-pent-with-modern-pockets",
+    "title": "Cargo Cotton Pent With Modern Pockets",
+    "price": 199,
+    "compare_at_price": 711,
+    "description": "Beautifully crafted Cotton piece — a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/ready9901.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-floral-print-cotton-silk-kurta-set-multicolor",
+    "title": "Women Floral Print Cotton Silk  Kurta  Set (Multicolor)",
+    "price": 99,
+    "compare_at_price": 381,
+    "description": "Elegantly tailored Cotton-silk piece — with a (multicolor) accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/mixk1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "hot-pink-printed-indo-fusion-co-ord-set-with-jacket",
+    "title": "Hot Pink Printed Indo-Fusion Co-Ord Set with Jacket",
+    "price": 139,
+    "compare_at_price": 1390,
+    "description": "Refined Pink piece — with a hot indo-fusion co-ord accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/1_308ba779-aeb8-4a47-b528-221482e18690.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "faux-georgette-saree-gown-with-heavy-handwork",
+    "title": "Faux georgette saree gown with heavy handwork",
+    "price": 189,
+    "compare_at_price": 652,
+    "description": "Striking Georgette piece — with a faux heavy handwork accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/BLACK_6cfe2d30-c614-480c-b7b8-575c70333e94.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "men-slim-fit-cargos-trousers",
+    "title": "Men Slim Fit Cargos Trousers",
+    "price": 199,
+    "compare_at_price": 686,
+    "description": "Exquisite piece — with a slim fit cargos accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/3_691c34de-7f82-4ca7-99d2-af9255262a09.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "men-s-charcoal-gray-cargo-joggers-urban-streetwear-pants",
+    "title": "Men’s Charcoal Gray Cargo Joggers – Urban Streetwear Pants",
+    "price": 149,
+    "compare_at_price": 452,
+    "description": "Beautifully crafted Gray piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/Cargoblack1_b8607fe8-41a4-4c64-9e62-4b73f9450403.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "men-s-black-cargo-joggers-premium-pants",
+    "title": "Men’s Black Cargo Joggers Premium Pants",
+    "price": 149,
+    "compare_at_price": 452,
+    "description": "Elegantly tailored Black piece — an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/Black_PENTS.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-green-colour-cotton-blend-kurta-palazzo-set-with-duppatta",
+    "title": "Women Green Colour Cotton Blend Kurta Palazzo Set with Duppatta",
+    "price": 99,
+    "compare_at_price": 381,
+    "description": "Refined Green cotton piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/23.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "womens-cute-bow-cardigan-sweater-long-sleeve-v-neck-button-down-pullover-top",
+    "title": "Women&#39;s Cute Bow Cardigan Sweater Long Sleeve V Neck Button Down Pullover Top",
+    "price": 199,
+    "compare_at_price": 1421,
+    "description": "Striking piece — with a #39;s cute bow accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/JA-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "green-colour-digital-flower-printed-anarkali-gown-for-women",
+    "title": "Green Colour Digital Flower Printed Anarkali Gown For Women",
+    "price": 199,
+    "compare_at_price": 995,
+    "description": "Exquisite Green piece — with an anarkali accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/1-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "black-colour-floral-printed-long-anarkali-black-kurta-with-dupatta-set",
+    "title": "Black Colour Floral Printed Long Anarkali Black Kurta With Dupatta Set",
+    "price": 199,
+    "compare_at_price": 1106,
+    "description": "Beautifully crafted Black piece — with a long anarkali dupatta accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/AB-1.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "premium-cotton-suit-set-orange-yellow-green",
+    "title": "Premium Cotton Suit Set – Orange-Yellow-Green",
+    "price": 99,
+    "compare_at_price": 900,
+    "description": "Elegantly tailored Orange cotton piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/21_1d54ee57-dadc-4eca-9051-1cfd2203fa51.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "superhit-black-floral-saree-gown-for-womens",
+    "title": "SUPERHIT BLACK FLORAL SAREE GOWN FOR WOMENS",
+    "price": 188,
+    "compare_at_price": 1106,
+    "description": "Refined Black piece — with a superhit womens accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/Only-188-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "multi-color-heavy-embroidered-lehenga-choli",
+    "title": "Multi Color Heavy Embroidered Lehenga Choli",
+    "price": 199,
+    "compare_at_price": 585,
+    "description": "Striking piece — with a multi heavy accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/L1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-light-green-colour-embroidered-straight-kurta-set",
+    "title": "Women Light Green Colour Embroidered Straight Kurta Set",
+    "price": 149,
+    "compare_at_price": 828,
+    "description": "Exquisite Green piece — with a straight accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/473Wx593H-466960867-lime-MODEL.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "dark-pink-embroidery-work-choli-with-koti",
+    "title": "Dark Pink Embroidery Work Choli With Koti",
+    "price": 299,
+    "compare_at_price": 1661,
+    "description": "Beautifully crafted Pink piece — with a koti accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/CH02.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-pure-cotton-pink-color-kurta-pant-dupatta-set",
+    "title": "Women Pure Cotton Pink color Kurta Pant Dupatta Set",
+    "price": 199,
+    "compare_at_price": 585,
+    "description": "Elegantly tailored Pink cotton piece — a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/2_349daaab-f2ee-4c93-8ca3-e15f66850c31.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-silk-blend-kurta-pant-dupatta-set",
+    "title": "Women Silk Blend Kurta Pant Dupatta Set",
+    "price": 199,
+    "compare_at_price": 711,
+    "description": "Refined Silk piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/k5.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-pink-white-ethnic-motifs-embroidered-kurta-with-dupatta",
+    "title": "Women Pink & White Ethnic Motifs Embroidered Kurta & With Dupatta",
+    "price": 199,
+    "compare_at_price": 569,
+    "description": "Striking Pink piece — with an ethnic motifs dupatta accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/k7-a.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-viscose-rayon-kurta-pant-dupatta-set",
+    "title": "Women Viscose Rayon Kurta Pant Dupatta Set",
+    "price": 199,
+    "compare_at_price": 948,
+    "description": "Exquisite Rayon piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/k9.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-black-colour-embroidered-straight-kurta-set",
+    "title": "Women Black Colour Embroidered Straight Kurta Set",
+    "price": 149,
+    "compare_at_price": 1146,
+    "description": "Beautifully crafted Black piece — with a straight accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/KH12-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-cotton-rayon-kurta-palazzo-dupatta-set",
+    "title": "Women Cotton Rayon Kurta Palazzo Dupatta Set",
+    "price": 155,
+    "compare_at_price": 554,
+    "description": "Elegantly tailored Rayon piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/kur-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-red-floral-printed-anarkali-kurti-pant-dupatta-set",
+    "title": "Women Red Floral Printed  Anarkali Kurti Pant & Dupatta Set",
+    "price": 99,
+    "compare_at_price": 707,
+    "description": "Refined Red piece — with an anarkali pant dupatta accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/006-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "embroidered-dupion-silk-straight-kurta-set-in-light-olive-green",
+    "title": "Embroidered Dupion Silk Straight Kurta Set in Light Olive Green",
+    "price": 199,
+    "compare_at_price": 905,
+    "description": "Striking Olive silk piece — with a dupion straight in accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/k6.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-magenta-gold-toned-embroidered-kurta-with-trousers-dupatta",
+    "title": "Women Magenta & Gold-Toned Embroidered Kurta with Trousers & Dupatta",
+    "price": 199,
+    "compare_at_price": 948,
+    "description": "Exquisite Magenta piece — with a gold-toned trousers dupatta accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/k-4-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "womens-cotton-blend-full-sleeve-kurti-palazzo-set",
+    "title": "Women&#39;s Cotton Blend Full Sleeve Kurti Palazzo Set",
+    "price": 149,
+    "compare_at_price": 466,
+    "description": "Beautifully crafted Cotton piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/149W.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "blue-color-printed-women-pure-cotton-kurti-pyjama-night-suit",
+    "title": "Blue Color Printed Women Pure Cotton Kurti & Pyjama Night Suit",
+    "price": 99,
+    "compare_at_price": 495,
+    "description": "Elegantly tailored Blue cotton piece — with a pure pyjama night accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/COD1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "light-mehendi-green-printed-muslin-straight-suit-with-digital-top-and-dupatta",
+    "title": "LIGHT MEHENDI GREEN PRINTED MUSLIN STRAIGHT SUIT WITH DIGITAL TOP AND DUPATTA",
+    "price": 99,
+    "compare_at_price": 762,
+    "description": "Refined Green piece — with a mehendi muslin straight accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/M01_fdb577c6-768d-434b-b7cb-7b19cd1e27a2.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-embellished-viscose-rayon-anarkali-kurta",
+    "title": "Women Embellished Viscose Rayon Anarkali Kurta",
+    "price": 149,
+    "compare_at_price": 481,
+    "description": "Striking Rayon piece — a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/149LA.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "womens-kurta-cotton-co-ord-set",
+    "title": "Womens Kurta Cotton co ord set",
+    "price": 99,
+    "compare_at_price": 413,
+    "description": "Exquisite Cotton piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/pink99.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "girls-sharara-set-top-with-choli",
+    "title": "Girls Sharara Set top with choli",
+    "price": 99,
+    "compare_at_price": 396,
+    "description": "Beautifully crafted piece — with a sharara accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/11.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "darkl-brown-shirt-with-waistcoat",
+    "title": "Dark Brown  Shirt With Waistcoat",
+    "price": 99,
+    "compare_at_price": 291,
+    "description": "Elegantly tailored Brown piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/TAY01.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "orange-plazzo-suit-for-kids-on-sale",
+    "title": "Orange And Green Plazzo Suit For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 622,
+    "description": "Refined Orange piece — a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/ad1dff_9e99135a82334651afbb4096211be680_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "printed-half-sleeves-t-shirt-with-short-kepari-and-cap",
+    "title": "Printed Half Sleeves T-Shirt With Short Kepari And Cap",
+    "price": 89,
+    "compare_at_price": 685,
+    "description": "Striking piece — with a sleeves t-shirt short accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/tishirt1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "sky-blue-shirt-and-pent-for-kids-on-sale",
+    "title": "Sky Blue Shirt And Pent For Kids On Sale",
+    "price": 149,
+    "compare_at_price": 438,
+    "description": "Exquisite Sky piece — an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/ad1dff_c1ebfd2767d441c8aeabd2f26787c468_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "dark-midnight-blue-resham-embroidered-georgette-palazzo-suit",
+    "title": "Dark Midnight Blue Resham Embroidered Georgette Palazzo Suit",
+    "price": 199,
+    "compare_at_price": 1421,
+    "description": "Beautifully crafted Blue georgette piece — with a midnight resham palazzo accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/nc2187-a.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "white-color-embroidered-plazzo-suit-for-kids-on-sale",
+    "title": "White Color Embroidered Plazzo Suit For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 1106,
+    "description": "Elegantly tailored White piece — with a plazzo on sale accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/ad1dff_299952f04b8145a08fadde889173a738_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "sky-blue-plazzo-suits-for-kids-on-sale",
+    "title": "Sky Blue Plazzo Suits For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 569,
+    "description": "Refined Sky piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/ad1dff_ba11eeb25e104f6a83de74fa170f7bf8_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "red-color-plazzo-suit-for-kids-on-sale",
+    "title": "Red Color Plazzo Suit For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 1047,
+    "description": "Striking Red piece — an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/ad1dff_a618bb6415c34bc38ab15c6761a4e0fc_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "light-pink-color-plazzo-suit-for-kids-on-sale",
+    "title": "Light Pink Color Plazzo Suit For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 948,
+    "description": "Exquisite Pink piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/ad1dff_fb2c81be8ffd4660b9d788bea2afac4a_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "girls-embroidered-kurti-multicolor-zig-zag-dhoti-dupatta-stylish-blouse-designs-for-lehenga-for-girls",
+    "title": "GIrls Embroidered Kurti, Multicolor Zig-Zag Dhoti & Dupatta - Stylish Blouse Designs for Lehenga for Girls",
+    "price": 99,
+    "compare_at_price": 413,
+    "description": "Beautifully crafted piece — with a multicolor zig-zag dhoti accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/DHOTI1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "yellow-plazzo-suits-for-kids-on-sale",
+    "title": "Yellow Plazzo Suits For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 686,
+    "description": "Elegantly tailored Yellow piece — an easy, reliable option for special days.",
+    "images": [
+      "/images/products/ad1dff_7fc8043e6cd04787b1a9689f6dbce932_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "toddler-girls-allover-flora-rose-print-layered-ruffle-dress",
+    "title": "Toddler Girls Allover Flora Rose Print Layered Ruffle Dress",
+    "price": 99,
+    "compare_at_price": 413,
+    "description": "Refined piece — with a toddler allover flora accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/DSCF6515_2048x_54a830e1-5918-44f6-b23d-9297dcd573ab.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "chikankari-organza-applique-top-dup-pent-set-prussian-blue-colour",
+    "title": "CHIKANKARI ORGANZA APPLIQUE TOP & DUP & PENT SET PRUSSIAN BLUE COLOUR",
+    "price": 299,
+    "compare_at_price": 2136,
+    "description": "Striking Blue organza piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/CHW_bdb3587c-b712-4843-9d7b-90e8563b0a1c.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "embroidered-kurta-sharara-set-with-havy-dupatta",
+    "title": "Women Embroidered Kurta Sharara Set With Havy Dupatta",
+    "price": 189,
+    "compare_at_price": 652,
+    "description": "Exquisite piece — with a sharara havy dupatta accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/img1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "malti-colorblock-all-size-track-suit",
+    "title": "Malti Colorblock All Size Track Suit",
+    "price": 199,
+    "compare_at_price": 686,
+    "description": "Beautifully crafted piece — with a malti colorblock all accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/TrackShuit_61cfd45a-f6f9-460c-9d91-feb332f4a8a2.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "chikankari-x-mirror-work-kurta-set",
+    "title": "CHIKANKARI X MIRROR WORK KURTA SET",
+    "price": 299,
+    "compare_at_price": 1359,
+    "description": "Elegantly tailored piece — with a chikankari accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/CHMI.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "womens-lakhnavi-handcrafted-mul-chanderi-chikankari-semi-stitched-kurta-and-dupatta-set",
+    "title": "Women&#39;s Lakhnavi Handcrafted Mul Chanderi Chikankari Semi Stitched Kurta And Dupatta Set",
+    "price": 199,
+    "compare_at_price": 642,
+    "description": "Refined piece — with a #39;s lakhnavi handcrafted accent, a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/01_2592e1e1-7011-4129-8cc4-1c9736618258.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "semi-stitched-organza-salwar-suit-material-embroidered",
+    "title": "Semi Stitched Organza Salwar Suit Material Embroidered",
+    "price": 199,
+    "compare_at_price": 948,
+    "description": "Striking Organza piece — with an organza material accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/lakhnavi-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "printed-net-skirt-x-rib-top",
+    "title": "Printed net skirt X rib top",
+    "price": 99,
+    "compare_at_price": 707,
+    "description": "Exquisite Net piece — with a skirt rib accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/skt1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "rani-pink-organza-with-moti-and-sequin-embroidery",
+    "title": "Rani Pink Organza with Moti and Sequin Embroidery",
+    "price": 199,
+    "compare_at_price": 686,
+    "description": "Beautifully crafted Pink organza piece — with a rani organza moti accent, an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/saree1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "baby-pink-layered-skirt-for-kids-on-sale",
+    "title": "Baby Pink Layered Skirt For Kids On Sale",
+    "price": 199,
+    "compare_at_price": 865,
+    "description": "Elegantly tailored Pink piece — a comfortable, flattering fit for celebrations.",
+    "images": [
+      "/images/products/ad1dff_3c66b03aada144b68206015feb12c272_mv2.png"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "fox-jorjet-saree-gown-with-heavy-handwork-patta",
+    "title": "Fox jorjet saree gown with heavy handwork Patta",
+    "price": 189,
+    "compare_at_price": 573,
+    "description": "Refined piece — with a fox jorjet heavy accent, a refined, polished look for everyday styling.",
+    "images": [
+      "/images/products/saree-1.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "womens-flower-print-multicolour-cotton-silk-kurti-set",
+    "title": "Womens Flower Print Multicolour Cotton Silk  Kurti  Set",
+    "price": 199,
+    "compare_at_price": 948,
+    "description": "Striking Cotton-silk piece — with a womens multicolour accent, an easy, reliable option for special days.",
+    "images": [
+      "/images/products/IMG_8385.jpg"
+    ],
+    "category": "top-selling"
+  },
+  {
+    "slug": "women-black-colour-embellished-anarkali-kurta-set-with-dupatta",
+    "title": "Women Black Colour Embellished Anarkali Kurta Set with Dupatta",
+    "price": 149,
+    "compare_at_price": 876,
+    "description": "Exquisite Black piece — an elegant, dependable choice for daily wear.",
+    "images": [
+      "/images/products/BLACK-2.jpg"
+    ],
+    "category": "top-selling"
   }
 ]

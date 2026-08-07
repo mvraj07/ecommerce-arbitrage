@@ -1,178 +1,225 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import ProductGrid from '../components/ProductGrid'
-import products from '../data/products.json'
-import { parentCategories, categories } from '../data/categories'
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
+import products from "../data/products.json";
+import AdSlot from "../components/AdSlot";
+import { triggerVignette } from "../engine/adOrchestrator";
 
-// Component to display hierarchical categories with mobile responsiveness
-function CategorySection({ parent, isOpen, onToggle }) {
+// Real category images from khedutmahiti.com
+const CATEGORY_TILES = [
+  {
+    slug: "lehenga-choli",
+    label: "Lehenga Choli",
+    image: "https://khedutmahiti.com/cdn/shop/collections/Lehenga-Choli.png?v=1704437455&width=600",
+  },
+  {
+    slug: "salwar-suit",
+    label: "Salwar Suit",
+    image: "https://khedutmahiti.com/cdn/shop/collections/Salwar-Suit.png?v=1704437473&width=600",
+  },
+  {
+    slug: "saree",
+    label: "Saree",
+    image: "https://khedutmahiti.com/cdn/shop/collections/Sarees.png?v=1704437489&width=600",
+  },
+  {
+    slug: "western-wear",
+    label: "Western Wear",
+    image: "https://khedutmahiti.com/cdn/shop/collections/Kurti.png?v=1720152640&width=600",
+  },
+];
+
+// Horizontal scrollable product carousel
+function ProductCarousel({ products }) {
+  const scrollRef = useRef(null);
+
+  const scroll = (dir) => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: dir * 260, behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="border-t border-gray-200 last:border-b">
-      {/* Parent Category Header - clickable on mobile, always expanded on desktop */}
+    <div className="relative">
       <button
-        onClick={() => onToggle(parent.id)}
-        className="w-full flex items-center justify-between gap-4 py-4 px-4 md:px-6 hover:bg-gray-50 transition-colors md:cursor-default"
+        onClick={() => scroll(-1)}
+        className="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-9 h-9 bg-white border border-gray-300 rounded-full shadow items-center justify-center hover:bg-gray-50 transition-colors"
+        aria-label="Scroll left"
       >
-        <div className="flex-1 text-left">
-          <div className="flex items-center gap-3 mb-1">
-            <span className="text-2xl">{parent.icon}</span>
-            <h3 className="text-xl font-semibold text-gray-900">{parent.title}</h3>
-          </div>
-          <p className="text-sm text-gray-600 hidden md:block">{parent.description}</p>
-        </div>
-        {/* Chevron icon - visible only on mobile */}
-        <svg
-          className={`w-6 h-6 text-gray-600 md:hidden transition-transform ${isOpen ? 'rotate-180' : ''}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
 
-      {/* Subcategories Grid - hidden on mobile by default, always visible on desktop */}
-      <div
-        className={`overflow-hidden transition-all duration-300 md:block ${
-          isOpen ? 'max-h-96' : 'max-h-0 md:max-h-screen'
-        }`}
-      >
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 px-4 py-4 md:py-6 bg-gray-50">
-          {parent.subcategories.map(subcategory => (
+      <div ref={scrollRef} className="flex gap-4 overflow-x-auto carousel-scroll pb-2">
+        {products.map((p) => {
+          const discount = p.compare_at_price
+            ? Math.round(((p.compare_at_price - p.price) / p.compare_at_price) * 100)
+            : 0;
+          return (
             <Link
-              key={subcategory.slug}
-              to={`/product-category/${subcategory.slug}`}
-              className="group overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow"
+              key={p.id}
+              to={`/product/${p.slug}`}
+              onClick={triggerVignette}
+              className="product-card flex-shrink-0 w-44 md:w-52 group"
             >
-              <div className="overflow-hidden bg-gray-100 h-40 md:h-48">
+              <div className="img-shell aspect-[3/4] relative">
                 <img
-                  src={subcategory.heroImage}
-                  alt={subcategory.title}
-                  className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  src={p.images[0]}
+                  alt={p.title}
+                  className="product-card-img w-full h-full object-cover object-center"
+                  loading="lazy"
                 />
+                {discount > 0 && (
+                  <span className="absolute top-2 left-2 bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded">
+                    -{discount}%
+                  </span>
+                )}
               </div>
-              <div className="p-3 text-center">
-                <h4 className="text-sm md:text-base font-semibold text-gray-900">{subcategory.title}</h4>
-                <p className="text-xs text-gray-600 mt-1 line-clamp-1">{subcategory.description}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </div>
-  )
-}
-
-export default function Home() {
-  // State to manage which parent category is expanded on mobile
-  const [expandedCategory, setExpandedCategory] = useState('women')
-
-  const arrivals = products.slice(0, 4)
-  const trending = products.slice(4, 8)
-
-  const toggleCategory = (categoryId) => {
-    setExpandedCategory(expandedCategory === categoryId ? null : categoryId)
-  }
-
-  return (
-    <div className="space-y-12 md:space-y-20">
-      {/* Hero Section with responsive grid */}
-      <section className="grid gap-6 md:gap-8 lg:grid-cols-[1.2fr_0.8fr] items-center">
-        <div className="space-y-4 md:space-y-6">
-          <div className="inline-flex items-center gap-3 rounded-full border border-green-300 bg-green-50 px-4 py-2 text-xs md:text-sm text-green-700">
-            New Arrival
-          </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight tracking-tight">
-            New Arrival<br />Limited Edition
-          </h1>
-          <p className="text-sm md:text-base max-w-xl text-gray-700">
-            Discover elegant sarees, lehengas, kurtas, and premium men's fashion.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3">
-            <Link to="#arrivals" className="btn-primary px-4 md:px-6 py-2 md:py-3 text-sm md:text-base text-center">
-              Shop Now
-            </Link>
-            <Link to="#trending" className="px-4 md:px-6 py-2 md:py-3 rounded-md border border-gray-300 text-sm md:text-base text-gray-700 text-center hover:bg-gray-50 transition-colors">
-              Explore Trending
-            </Link>
-          </div>
-        </div>
-        <div className="relative overflow-hidden rounded-2xl md:rounded-3xl bg-gray-100 h-64 md:h-80 lg:h-auto">
-          <img
-            src="https://images.pexels.com/photos/15359601/pexels-photo-15359601.jpeg?auto=compress&cs=tinysrgb&w=1200"
-            alt="New Arrivals"
-            className="h-full w-full object-cover"
-          />
-        </div>
-      </section>
-
-      {/* Categories Section - Hierarchical with Men and Women */}
-      <section id="categories" className="space-y-4">
-        <div className="flex items-center gap-2 mb-4">
-          <h2 className="text-2xl md:text-3xl font-serif">Shop by Category</h2>
-          <p className="text-xs md:text-sm text-gray-600 ml-auto hidden sm:block">
-            Tap to expand on mobile • Hover for preview
-          </p>
-        </div>
-
-        <div className="border border-gray-200 rounded-2xl overflow-hidden bg-white shadow-sm">
-          {/* Women's Category */}
-          <CategorySection
-            parent={parentCategories[0]}
-            isOpen={expandedCategory === 'women'}
-            onToggle={toggleCategory}
-          />
-
-          {/* Men's Category */}
-          <CategorySection
-            parent={parentCategories[1]}
-            isOpen={expandedCategory === 'men'}
-            onToggle={toggleCategory}
-          />
-        </div>
-
-        <p className="text-xs text-gray-500 text-center">
-          💡 Tip: Click on categories to explore all products in each subcategory
-        </p>
-      </section>
-
-      {/* New Arrivals Section */}
-      <section id="arrivals" className="space-y-4 md:space-y-6">
-        <h2 className="text-2xl md:text-3xl font-serif">Just: New Arrival</h2>
-        <div className="grid gap-3 md:gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {arrivals.map(a => (
-            <Link
-              key={a.id}
-              to={`/product/${a.slug}`}
-              className="group overflow-hidden rounded-2xl md:rounded-3xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow"
-            >
-              <div className="overflow-hidden bg-gray-100 h-40 md:h-60 lg:h-80">
-                <img
-                  src={a.images[0]}
-                  alt={a.title}
-                  className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-3 md:p-4">
-                <p className="text-xs uppercase tracking-[0.3em] text-gray-500">{a.category}</p>
-                <h3 className="text-sm md:text-lg font-semibold text-gray-900 line-clamp-2">{a.title}</h3>
-                <div className="flex items-center gap-2 mt-2">
-                  <span className="text-green-700 font-semibold text-sm md:text-base">₹{a.price}</span>
-                  {a.compare_at_price && (
-                    <span className="text-xs text-gray-500 line-through">₹{a.compare_at_price}</span>
+              <div className="mt-2 px-0.5">
+                <p className="text-xs text-gray-500 truncate capitalize">{p.category}</p>
+                <h3 className="text-sm font-medium text-gray-900 line-clamp-2 leading-snug mt-0.5 group-hover:text-gray-600 transition-colors">
+                  {p.title}
+                </h3>
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-sm font-bold text-gray-900">
+                    ₹{p.price.toLocaleString("en-IN")}
+                  </span>
+                  {p.compare_at_price && (
+                    <span className="text-xs text-gray-400 line-through">
+                      ₹{p.compare_at_price.toLocaleString("en-IN")}
+                    </span>
                   )}
                 </div>
               </div>
             </Link>
-          ))}
-        </div>
+          );
+        })}
+      </div>
+
+      <button
+        onClick={() => scroll(1)}
+        className="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-9 h-9 bg-white border border-gray-300 rounded-full shadow items-center justify-center hover:bg-gray-50 transition-colors"
+        aria-label="Scroll right"
+      >
+        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+  );
+}
+
+function SectionHeading({ title, viewAllSlug, viewAllPath }) {
+  return (
+    <div className="flex items-center justify-between mb-5">
+      <h2 className="text-xl md:text-2xl font-bold uppercase tracking-wide text-gray-900">
+        {title}
+      </h2>
+      {(viewAllSlug || viewAllPath) && (
+        <Link
+          to={viewAllPath || `/product-category/${viewAllSlug}`}
+          className="text-sm text-gray-600 border border-gray-300 px-4 py-1.5 rounded hover:bg-gray-50 transition-colors"
+        >
+          View all
+        </Link>
+      )}
+    </div>
+  );
+}
+
+export default function Home() {
+  const bestSelling = products.filter(p => p.category === "top-selling").slice(0, 8);
+  const trending = [
+    ...products.filter(p => p.category === "saree").slice(0, 4),
+    ...products.filter(p => p.category === "salwar-suit").slice(0, 4),
+  ];
+
+  return (
+    <div className="pb-14">
+      {/* ── Hero Banner — real image from khedutmahiti.com ── */}
+      <section className="w-full overflow-hidden bg-gray-100 h-auto">
+        <img
+          src="https://khedutmahiti.com/cdn/shop/files/bennar.jpg?v=1719409417&width=1600"
+          alt="Fashion Banner"
+          className="w-full object-cover object-center aspect-[16/7] md:aspect-[21/8]"
+          fetchPriority="high"
+        />
       </section>
 
-      {/* Trending Products Section */}
-      <section id="trending" className="space-y-4 md:space-y-6">
-        <h2 className="text-2xl md:text-3xl font-serif">Trending Products</h2>
-        <ProductGrid products={trending} />
-      </section>
+      <div className="max-w-7xl mx-auto px-4">
+
+        {/* ── Shop By Categories ── */}
+        <section className="py-10 md:py-14">
+          <h2 className="section-title">Shop By Categories</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
+            {CATEGORY_TILES.map((cat) => (
+              <Link
+                key={cat.slug}
+                to={`/product-category/${cat.slug}`}
+                className="group relative overflow-hidden rounded-xl bg-gray-100 aspect-square"
+              >
+                <img
+                  src={cat.image}
+                  alt={cat.label}
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors flex items-end">
+                  <span className="w-full text-center text-white font-semibold text-sm md:text-base py-3 md:py-4 uppercase tracking-wider">
+                    {cat.label}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* ── Ad after Shop by Categories (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
+
+        {/* ── Best Selling ── */}
+        <section className="pb-10 md:pb-14">
+          <SectionHeading title="Best Selling" viewAllPath="/best-selling" />
+          <ProductCarousel products={bestSelling} />
+        </section>
+
+        {/* ── Ad after Best Selling (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
+
+        {/* ── Mid Banner — real image ── */}
+        <section className="pb-10 md:pb-14">
+          <Link to="/product-category/saree" className="group block rounded-xl overflow-hidden bg-gray-100">
+            <img
+              src="https://khedutmahiti.com/cdn/shop/files/bennar.jpg?v=1719409417&width=1600"
+              alt="Shop Sarees"
+              className="w-full object-cover object-center aspect-[16/6] md:aspect-[21/7] group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+            />
+          </Link>
+        </section>
+
+        {/* ── Ad after Mid Banner (demo) ── */}
+        <div className="pb-10 md:pb-14">
+          <AdSlot type="banner-300x250" />
+        </div>
+
+        {/* ── Trending Collection ── */}
+        <section className="pb-12 md:pb-16">
+          <SectionHeading title="Trending Collection" viewAllSlug="lehenga-choli" />
+          <ProductCarousel products={trending} />
+        </section>
+
+      </div>
+
+      {/* ── Sticky Mobile Bottom Anchor (demo, mobile only) ── */}
+      <div className="lg:hidden">
+        <div className="fixed bottom-0 inset-x-0 z-[90] bg-white/95 backdrop-blur border-t border-gray-200">
+          <AdSlot type="anchor-320x50" className="p-2" />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
