@@ -75,31 +75,6 @@ h1, h2, h3, h4 {
   object-position: center;
 }
 
-.ad-vignette-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 9998;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(17, 24, 39, 0.75);
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 700;
-}
-
-.ad-slot-mobile-safe {
-  width: 100%;
-  max-width: 100%;
-  margin-inline: auto;
-}
-
-@media (max-width: 393px) {
-  .ad-slot-mobile-safe {
-    max-width: 100vw;
-  }
-}
-
 /* Light fade-in used for the "Go to Cart" button after adding to cart.
    GPU-friendly: animates only opacity/transform, so it has no layout impact. */
 .fade-in-up {
