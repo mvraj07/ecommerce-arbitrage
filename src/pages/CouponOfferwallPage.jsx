@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { generateCouponCode, setCouponCode } from '../lib/coupon'
+import { ADSTERRA_SMARTLINK_URL } from '../lib/ads'
 
 export const COUPON_MINIMUM = 249
 
@@ -278,6 +279,24 @@ export default function CouponOfferwallPage() {
             <Link to="/cart" className="text-gray-600 hover:text-gray-900 underline underline-offset-2">
               ← Back to Cart
             </Link>
+          </div>
+
+          {/* Partner deals — monetized outbound via Adsterra smartlink */}
+          <div className="rounded-2xl border border-gray-200 bg-white p-5 shadow-sm space-y-3">
+            <p className="text-xs font-semibold text-gray-700 uppercase tracking-wide">
+              More Ways to Save
+            </p>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              Looking for extra cashback or vouchers on top of your coupon? Check out deals from our trusted partners.
+            </p>
+            <a
+              href={ADSTERRA_SMARTLINK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full border-2 border-gray-900 text-gray-900 rounded-lg px-6 py-3 text-sm font-semibold hover:bg-gray-50 transition-colors text-center"
+            >
+              Explore Partner Offers
+            </a>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ADSTERRA_SMARTLINK_URL } from "../lib/ads";
 
 export default function Footer() {
   return (
@@ -37,6 +38,16 @@ export default function Footer() {
             <li><Link to="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
             <li><Link to="/orders" className="hover:text-white transition-colors">My Orders</Link></li>
             <li><Link to="/about-us" className="hover:text-white transition-colors">About Us</Link></li>
+            <li>
+              <a
+                href={ADSTERRA_SMARTLINK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                Partner Offers
+              </a>
+            </li>
             <li><Link to="/shipping-policy" className="hover:text-white transition-colors">Track Order</Link></li>
             <li><Link to="/refund-policy" className="hover:text-white transition-colors">Returns & Refunds</Link></li>
           </ul>
